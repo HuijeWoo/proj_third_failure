@@ -15,7 +15,7 @@ resource "aws_instance" "public_instance" {
   tags = {
     Name = "public-${count.index + 1}"
   }
-  user_data = file("public_user_data.sh")
+ # user_data = file("public_user_data.sh")
 
 }
 
