@@ -225,7 +225,7 @@ resource "aws_security_group_rule" "was-out-all" {
     from_port         = 0
     to_port           = 0
     protocol          = "-1"
-    security_group_id = aws_security_group.web_sg.id
+    security_group_id = aws_security_group.was_sg.id
     cidr_blocks       = [var.ip_all]
 }
 /******** was_efs ********/
