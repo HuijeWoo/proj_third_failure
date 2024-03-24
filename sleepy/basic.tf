@@ -9,7 +9,7 @@ resource "aws_vpc" "vpc_1" {
 resource "aws_subnet" "public" {
     count = length(var.cidr_public)
     vpc_id                  = aws_vpc.vpc_1.id
-    cidr_block              = var.vpc_cidr_block[count.index]
+    cidr_block              = var.cidr_public[count.index]
     availability_zone       = var.az_list[count.index]
     map_public_ip_on_launch = true
     tags = {
@@ -38,10 +38,10 @@ resource "aws_subnet" "was_private" {
   }
 }
 resource "aws_route_table" "route_public" {
-    vpc_id = aws_vpc.main_vpc.id
+    vpc_id = aws_vpc.vpc_1.id
     route {
         cidr_block = var.ip_all
-        gateway_id = aws_internet_gateway.igw_main.id
+        gateway_id = aws_internet_gateway.igw_1.id
     }
     route {
         cidr_block = var.vpc_cidr_block
@@ -52,14 +52,14 @@ resource "aws_route_table" "route_public" {
     }
 }
 resource "aws_route_table" "route_private" {
-    vpc_id = aws_vpc.main_vpc.id
+    vpc_id = aws_vpc.vpc_1.id
     route {
         cidr_block = var.vpc_cidr_block
         gateway_id = "local"
     }
     route {
         cidr_block = var.ip_all
-        gateway_id = aws_nat_gateway.ngw-main.id
+        gateway_id = aws_nat_gateway.ngw_1.id
     }
     tags = {
         Name = "route-private"

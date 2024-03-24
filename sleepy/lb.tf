@@ -1,5 +1,5 @@
 resource "aws_lb" "exter_lb" {
-    name               = "exter_lb"
+    name               = "exter-lb"
     internal           = false
     load_balancer_type = "application"
     security_groups    = [aws_security_group.exter_lb_sg.id]
@@ -33,7 +33,7 @@ resource "aws_lb_target_group_attachment" "exter" {
 # 의도 : (바깥 80) -> (external lb) -> (web 8080 수신)
 
 resource "aws_lb" "inter_lb" {
-    name               = "inter_lb"
+    name               = "inter-lb"
     internal           = true
     load_balancer_type = "application"
     security_groups    = [aws_security_group.inter_lb_sg.id]

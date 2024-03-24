@@ -1,6 +1,6 @@
 /******** public ********/
 resource "aws_security_group" "public_sg" {
-    name        = "public_sg"
+    name        = "public-sg"
     description = "sg for public instance"
     vpc_id      = aws_vpc.vpc_1.id
     lifecycle { 
@@ -10,7 +10,7 @@ resource "aws_security_group" "public_sg" {
         aws_subnet.public
     ]
     tags = {
-        Name = "public_sg" 
+        Name = "public-sg" 
     }
 }
 resource "aws_security_group_rule" "ingr_22_for_public" {
@@ -31,7 +31,7 @@ resource "aws_security_group_rule" "public-out-all" {
 }
 /******** external loadbalancer ********/
 resource "aws_security_group" "exter_lb_sg" {
-    name        = "exter_lb_sg"
+    name        = "exter-lb-sg"
     description = "sg for external loadbalancer"
     vpc_id      = aws_vpc.vpc_1.id
     lifecycle { 
@@ -41,7 +41,7 @@ resource "aws_security_group" "exter_lb_sg" {
         aws_subnet.public
     ]
     tags = {
-        Name = "exter_lb_sg" 
+        Name = "exter-lb-sg" 
     }
 }
 resource "aws_security_group_rule" "ingr_80_for_exter_lb" {
@@ -62,7 +62,7 @@ resource "aws_security_group_rule" "exter-out-all" {
 }
 /******** web instance ********/
 resource "aws_security_group" "web_sg" {
-    name        = "web_sg"
+    name        = "web-sg"
     description = "sg for web instance"
     vpc_id      = aws_vpc.vpc_1.id
     lifecycle { 
@@ -72,7 +72,7 @@ resource "aws_security_group" "web_sg" {
         aws_subnet.web_private
     ]
     tags = {
-        Name = "web_sg" 
+        Name = "web-sg" 
     }
 }
 #### external-lb -> (8080 web)
@@ -111,8 +111,8 @@ resource "aws_security_group_rule" "web-out-all" {
 }
 /******** web efg ********/
 resource "aws_security_group" "web_efs_sg" {
-    name        = "web_efs_sg"
-    description = "sg for web_efs"
+    name        = "web-efs-sg"
+    description = "sg for web-efs"
     vpc_id      = aws_vpc.vpc_1.id
     lifecycle {
         create_before_destroy = true
@@ -121,7 +121,7 @@ resource "aws_security_group" "web_efs_sg" {
         aws_instance.web_private
     ]
     tags = {
-        Name = "web_efs_sg"
+        Name = "web-efs-sg"
     }
 }
 resource "aws_security_group_rule" "web_efs_ingr_from_web" {
@@ -142,7 +142,7 @@ resource "aws_security_group_rule" "web_efs_out_all" {
 }
 /******** internal loadbalancer ********/
 resource "aws_security_group" "inter_lb_sg" {
-    name        = "inter_lb_sg"
+    name        = "inter-lb-sg"
     description = "sg for internal loadbalancer"
     vpc_id      = aws_vpc.vpc_1.id
     lifecycle { 
@@ -152,7 +152,7 @@ resource "aws_security_group" "inter_lb_sg" {
         aws_subnet.web_private
     ]
     tags = {
-        Name = "inter_lb_sg" 
+        Name = "inter-lb-sg" 
     }
 }
 resource "aws_security_group_rule" "ingr_from_web_private" {
@@ -181,7 +181,7 @@ resource "aws_security_group_rule" "inter-out-all" {
 }
 /******** was instance ********/
 resource "aws_security_group" "was_sg" {
-    name        = "was_sg"
+    name        = "was-sg"
     description = "sg for was instance"
     vpc_id      = aws_vpc.vpc_1.id
     lifecycle { 
@@ -191,7 +191,7 @@ resource "aws_security_group" "was_sg" {
         aws_subnet.was_private
     ]
     tags = {
-        Name = "was_sg" 
+        Name = "was-sg" 
     }
 }
 #### internal-lb -> (2222 was)
@@ -230,8 +230,8 @@ resource "aws_security_group_rule" "was-out-all" {
 }
 /******** was_efs ********/
 resource "aws_security_group" "was_efs_sg" {
-    name        = "was_efs_sg"
-    description = "sg for was_efs"
+    name        = "was-efs-sg"
+    description = "sg for was-efs"
     vpc_id      = aws_vpc.vpc_1.id
     lifecycle {
         create_before_destroy = true
@@ -240,7 +240,7 @@ resource "aws_security_group" "was_efs_sg" {
         aws_instance.was_private
     ]
     tags = {
-        Name = "was_efs_sg"
+        Name = "was-efs-sg"
     }
 }
 resource "aws_security_group_rule" "was_efs_ingr_from_was" {
