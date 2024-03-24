@@ -24,7 +24,7 @@ resource "aws_instance" "web_private" {
     ami                         = data.aws_ami.amazon_linux_2023.id
     instance_type               = var.basic_instance_type[0]
     key_name                    = aws_key_pair.key_1.id
-    vpc_security_group_ids      = [aws_security_group.web_private_sg.id]
+    vpc_security_group_ids      = [aws_security_group.web_sg.id]
     subnet_id                   = element(aws_subnet.web_private[*].id, count.index)
     associate_public_ip_address = false
     root_block_device {
@@ -45,7 +45,7 @@ resource "aws_instance" "was_private" {
     ami                         = data.aws_ami.amazon_linux_2023.id
     instance_type               = var.basic_instance_type[0]
     key_name                    = aws_key_pair.key_1.id
-    vpc_security_group_ids      = [aws_security_group.was_private_sg.id]
+    vpc_security_group_ids      = [aws_security_group.was_sg.id]
     subnet_id                   = element(aws_subnet.was_private[*].id, count.index)
     associate_public_ip_address = false
     root_block_device {
