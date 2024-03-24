@@ -1,7 +1,7 @@
 resource "aws_vpc" "vpc_1" {
     cidr_block = var.vpc_cidr_block
     tags = {
-        Name = "main_vpc"
+        Name = "vpc_1"
     }
     enable_dns_hostnames = true
     enable_dns_support = true
