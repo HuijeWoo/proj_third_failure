@@ -8,6 +8,9 @@ resource "aws_lb" "exter_lb" {
         aws_security_group.exter_lb_sg,
         aws_lb_target_group.exter_lb_tg
     ]
+    lifecycle { 
+        create_before_destroy = true
+    }
 }
 resource "aws_lb_listener" "exter_listen_1" {
     load_balancer_arn = aws_lb.exter_lb.arn
@@ -22,13 +25,21 @@ resource "aws_lb_listener" "exter_listen_1" {
     }
 }
 resource "aws_lb_target_group" "exter_lb_tg" {
-  name     = "exter-lb-tg"
-  port     = 8080 # from
-  protocol = "HTTP"
-  vpc_id   = aws_vpc.vpc_1.id
-  tags = {
-    Name = "exter-lb-tg"
-  }
+    name     = "exter-lb-tg"
+    port     = 8080
+    protocol = "HTTP"
+    vpc_id   = aws_vpc.vpc_1.id
+    health_check {
+        path                = "/"
+        port                = 8080
+        protocol            = "HTTP"
+        healthy_threshold   = 3
+        unhealthy_threshold = 3
+        matcher             = "200-399,503"
+    }
+    tags = {
+        Name = "exter-lb-tg"
+    }
 }
 resource "aws_lb_target_group_attachment" "exter" {
     for_each = {
@@ -51,6 +62,9 @@ resource "aws_lb" "inter_lb" {
         aws_security_group.inter_lb_sg,
         aws_lb_target_group.inter_lb_tg
     ]
+    lifecycle { 
+        create_before_destroy = true
+    }    
 }
 resource "aws_lb_listener" "inter_listen_1" {
     load_balancer_arn = aws_lb.inter_lb.arn
@@ -66,7 +80,7 @@ resource "aws_lb_listener" "inter_listen_1" {
 }
 resource "aws_lb_target_group" "inter_lb_tg" {
   name     = "inter-lb-tg"
-  port     = 2222 # from
+  port     = 2222
   protocol = "HTTP"
   vpc_id   = aws_vpc.vpc_1.id
   tags = {
