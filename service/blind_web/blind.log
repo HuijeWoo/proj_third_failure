@@ -1,0 +1,1716 @@
+2024-01-18 16:38:21,918 | INFO | 13288 | bind.index() 진입
+2024-01-18 16:38:21,926 | INFO | 13288 | enter index
+2024-01-18 16:38:21,927 | INFO | 13288 | bind.index() 종료
+2024-01-18 16:38:23,118 | INFO | 13288 | bind.index() 진입
+2024-01-18 16:38:23,121 | INFO | 13288 | enter index
+2024-01-18 16:38:23,122 | INFO | 13288 | bind.index() 종료
+2024-01-18 16:38:24,321 | INFO | 13288 | guest: board.search_results(11)진입
+2024-01-18 16:38:24,321 | INFO | 13288 | guest: blind_board_DAO.selectBoardForSearch()에 진입
+2024-01-18 16:38:24,321 | INFO | 13288 | guest: board.search_results(11)종료
+2024-01-18 16:38:25,323 | INFO | 13288 | bind.index() 진입
+2024-01-18 16:38:25,324 | INFO | 13288 | enter index
+2024-01-18 16:38:25,325 | INFO | 13288 | bind.index() 종료
+2024-01-18 16:39:26,963 | INFO | 13288 | guest: board.search_results(erer)진입
+2024-01-18 16:39:26,963 | INFO | 13288 | guest: blind_board_DAO.selectBoardForSearch()에 진입
+2024-01-18 16:39:26,963 | INFO | 13288 | guest: board.search_results(erer)종료
+2024-01-18 16:39:28,274 | INFO | 13288 | member.login() GET 진입
+2024-01-18 16:39:28,274 | INFO | 13288 | enter the login page
+2024-01-18 16:39:32,098 | INFO | 13288 | member.login() POST 진입
+2024-01-18 16:39:32,098 | INFO | 13288 | member.selectMemberById() 진입
+2024-01-18 16:39:32,098 | INFO | 13288 | member.selectMemberById() 종료
+2024-01-18 16:39:32,098 | INFO | 13288 | login Success! Welcome, jang
+2024-01-18 16:39:32,098 | INFO | 13288 | member.login() 종료
+2024-01-18 16:39:32,107 | INFO | 13288 | bind.index() 진입
+2024-01-18 16:39:32,109 | INFO | 13288 | user jang enter index
+2024-01-18 16:39:32,109 | INFO | 13288 | bind.index() 종료
+2024-01-18 16:39:33,942 | INFO | 13288 | myPage() 진입
+2024-01-18 16:39:33,942 | INFO | 13288 | User jang myPage 진입
+2024-01-18 16:39:33,943 | INFO | 13288 | myPage() 종료
+2024-01-18 16:39:34,626 | INFO | 13288 | User jang member.myPageEdit() GET 진입
+2024-01-18 16:39:34,627 | INFO | 13288 | member.selectMemberByIdx() 진입
+2024-01-18 16:39:34,629 | INFO | 13288 | member.selectMemberByIdx() 종료
+2024-01-18 16:39:38,895 | INFO | 13288 | member.passwordConditionCheck() 진입
+2024-01-18 16:39:38,896 | INFO | 13288 | member.passwordConditionChecker() 진입
+2024-01-18 16:39:38,896 | INFO | 13288 | Good Password Condition
+2024-01-18 16:39:38,896 | INFO | 13288 | member.passwordConditionChecker() 종료
+2024-01-18 16:39:38,896 | INFO | 13288 | member.passwordConditionCheck() 종료
+2024-01-18 16:40:28,558 | INFO | 13288 | jang: GET으로 board.write()에 진입
+2024-01-18 16:40:31,350 | INFO | 13288 | jang: POST으로 board.write()에 진입
+2024-01-18 16:40:31,350 | INFO | 13288 | jang: blind_board_DAO.insertBoard()에 진입
+2024-01-18 16:40:31,364 | INFO | 13288 | jang: blind_board_DAO.inesrtBoard()종료
+2024-01-18 16:40:31,364 | INFO | 13288 | jang: board.write()종료
+2024-01-18 16:40:31,368 | INFO | 13288 | bind.index() 진입
+2024-01-18 16:40:31,368 | INFO | 13288 | user jang enter index
+2024-01-18 16:40:31,368 | INFO | 13288 | bind.index() 종료
+2024-01-18 16:40:32,129 | INFO | 13288 | jang: board.detail(24)에 진입
+2024-01-18 16:40:32,129 | INFO | 13288 | jang: blind_bloard_DAO.selectBoardByIdx(24)
+2024-01-18 16:40:32,132 | INFO | 13288 | jang: blind_board_DAO.selectBoardById()종료
+2024-01-18 16:40:32,133 | INFO | 13288 | jang: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-01-18 16:40:32,135 | INFO | 13288 | jang: blind_reply_DAO.selectReplyByIdx()종료
+2024-01-18 16:40:32,136 | INFO | 13288 | jang: board.detail(24)종료
+2024-01-18 16:40:33,705 | INFO | 13288 | jang: GET으로 board.edit(24)에 진입
+2024-01-18 16:40:33,705 | INFO | 13288 | jang: blind_bloard_DAO.selectBoardByIdx(24)
+2024-01-18 16:40:33,709 | INFO | 13288 | jang: blind_board_DAO.selectBoardById()종료
+2024-01-18 16:40:34,985 | INFO | 13288 | jang: POST로 board.edit24에 진입
+2024-01-18 16:40:34,985 | INFO | 13288 | jang: blind_board_DAO.updateBoard()에 진입
+2024-01-18 16:40:35,000 | INFO | 13288 | jang: blind_board_DAO.updateBoard()종료
+2024-01-18 16:40:35,001 | INFO | 13288 | jang: board.edit(24)종료
+2024-01-18 16:40:35,004 | INFO | 13288 | bind.index() 진입
+2024-01-18 16:40:35,004 | INFO | 13288 | user jang enter index
+2024-01-18 16:40:35,004 | INFO | 13288 | bind.index() 종료
+2024-01-18 16:40:36,149 | INFO | 13288 | jang: board.detail(24)에 진입
+2024-01-18 16:40:36,149 | INFO | 13288 | jang: blind_bloard_DAO.selectBoardByIdx(24)
+2024-01-18 16:40:36,153 | INFO | 13288 | jang: blind_board_DAO.selectBoardById()종료
+2024-01-18 16:40:36,153 | INFO | 13288 | jang: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-01-18 16:40:36,156 | INFO | 13288 | jang: blind_reply_DAO.selectReplyByIdx()종료
+2024-01-18 16:40:36,156 | INFO | 13288 | jang: board.detail(24)종료
+2024-01-18 16:40:38,056 | INFO | 13288 | jang: board.replyInsert(24)에 진입
+2024-01-18 16:40:38,056 | INFO | 13288 | jang: blind_reply_DAO.insertReply()에 진입
+2024-01-18 16:40:38,075 | INFO | 13288 | jang: blind_reply_DAO.insertReply()종료
+2024-01-18 16:40:38,075 | INFO | 13288 | jang: board.replyInsert(24)종료
+2024-01-18 16:40:38,097 | INFO | 13288 | jang: board.detail(24)에 진입
+2024-01-18 16:40:38,097 | INFO | 13288 | jang: blind_bloard_DAO.selectBoardByIdx(24)
+2024-01-18 16:40:38,099 | INFO | 13288 | jang: blind_board_DAO.selectBoardById()종료
+2024-01-18 16:40:38,099 | INFO | 13288 | jang: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-01-18 16:40:38,101 | INFO | 13288 | jang: blind_reply_DAO.selectReplyByIdx()종료
+2024-01-18 16:40:38,102 | INFO | 13288 | jang: board.detail(24)종료
+2024-01-18 16:41:00,627 | INFO | 3344 | myPage() 진입
+2024-01-18 16:41:00,628 | INFO | 3344 | User jang myPage 진입
+2024-01-18 16:41:00,628 | INFO | 3344 | myPage() 종료
+2024-01-18 16:41:01,437 | INFO | 3344 | User jang member.myPageEdit() GET 진입
+2024-01-18 16:41:01,437 | INFO | 3344 | member.selectMemberByIdx() 진입
+2024-01-18 16:41:01,440 | INFO | 3344 | member.selectMemberByIdx() 종료
+2024-01-18 16:41:28,872 | INFO | 11512 | User jang member.myPageEdit() GET 진입
+2024-01-18 16:41:28,873 | INFO | 11512 | member.selectMemberByIdx() 진입
+2024-01-18 16:41:28,876 | INFO | 11512 | member.selectMemberByIdx() 종료
+2024-01-18 16:41:31,496 | INFO | 11512 | User jang member.myPageEdit() POST 진입
+2024-01-18 16:41:31,496 | INFO | 11512 | member.updateMember() 진입
+2024-01-18 16:41:31,507 | INFO | 11512 | member.updateMember() 종료
+2024-01-18 16:41:31,508 | INFO | 11512 | User jang update Complete
+2024-01-18 16:41:31,508 | INFO | 11512 | member.selectMemberById() 진입
+2024-01-18 16:41:31,511 | INFO | 11512 | member.selectMemberById() 종료
+2024-01-18 16:41:31,511 | DEBUG | 11512 | session Update
+2024-01-18 16:41:31,512 | INFO | 11512 | member.myPageEdit() 종료
+2024-01-18 16:41:31,516 | INFO | 11512 | bind.index() 진입
+2024-01-18 16:41:31,522 | INFO | 11512 | user jang enter index
+2024-01-18 16:41:31,524 | INFO | 11512 | bind.index() 종료
+2024-01-18 16:41:31,540 | INFO | 11512 | member.passwordConditionCheck() 진입
+2024-01-18 16:41:31,541 | INFO | 11512 | member.passwordConditionChecker() 진입
+2024-01-18 16:41:31,542 | INFO | 11512 | Good Password Condition
+2024-01-18 16:41:31,543 | INFO | 11512 | member.passwordConditionChecker() 종료
+2024-01-18 16:41:31,544 | INFO | 11512 | member.passwordConditionCheck() 종료
+2024-01-18 16:43:39,653 | INFO | 11512 | bind.index() 진입
+2024-01-18 16:43:39,655 | INFO | 11512 | user jang enter index
+2024-01-18 16:43:39,655 | INFO | 11512 | bind.index() 종료
+2024-01-18 16:43:39,803 | INFO | 11512 | bind.index() 진입
+2024-01-18 16:43:39,803 | INFO | 11512 | user jang enter index
+2024-01-18 16:43:39,803 | INFO | 11512 | bind.index() 종료
+2024-01-18 16:43:40,442 | INFO | 11512 | member.logout() 진입
+2024-01-18 16:43:40,443 | INFO | 11512 | janglogout Success
+2024-01-18 16:43:40,443 | INFO | 11512 | member.logout() 종료
+2024-01-18 16:43:40,448 | INFO | 11512 | bind.index() 진입
+2024-01-18 16:43:40,450 | INFO | 11512 | enter index
+2024-01-18 16:43:40,450 | INFO | 11512 | bind.index() 종료
+2024-01-18 16:43:41,317 | INFO | 11512 | member.login() GET 진입
+2024-01-18 16:43:41,318 | INFO | 11512 | enter the login page
+2024-01-18 16:43:44,060 | INFO | 11512 | member.login() POST 진입
+2024-01-18 16:43:44,061 | INFO | 11512 | member.selectMemberById() 진입
+2024-01-18 16:43:44,064 | INFO | 11512 | member.selectMemberById() 종료
+2024-01-18 16:43:44,065 | WARNING | 11512 | login pw Fail
+2024-01-18 16:43:44,065 | INFO | 11512 | member.login() 종료
+2024-01-18 16:43:44,721 | INFO | 11512 | member.login() GET 진입
+2024-01-18 16:43:44,722 | INFO | 11512 | enter the login page
+2024-01-18 16:43:49,002 | INFO | 11512 | member.login() POST 진입
+2024-01-18 16:43:49,002 | INFO | 11512 | member.selectMemberById() 진입
+2024-01-18 16:43:49,002 | INFO | 11512 | member.selectMemberById() 종료
+2024-01-18 16:43:49,002 | INFO | 11512 | login Success! Welcome, jang
+2024-01-18 16:43:49,002 | INFO | 11512 | member.login() 종료
+2024-01-18 16:43:49,011 | INFO | 11512 | bind.index() 진입
+2024-01-18 16:43:49,012 | INFO | 11512 | user jang enter index
+2024-01-18 16:43:49,012 | INFO | 11512 | bind.index() 종료
+2024-01-18 16:43:51,455 | INFO | 11512 | jang: board.search_results(123)진입
+2024-01-18 16:43:51,455 | INFO | 11512 | jang: blind_board_DAO.selectBoardForSearch()에 진입
+2024-01-18 16:43:52,587 | INFO | 11512 | bind.index() 진입
+2024-01-18 16:43:52,589 | INFO | 11512 | user jang enter index
+2024-01-18 16:43:52,589 | INFO | 11512 | bind.index() 종료
+2024-01-18 16:43:55,401 | INFO | 11512 | jang: board.search_results(tzt)진입
+2024-01-18 16:43:55,401 | INFO | 11512 | jang: blind_board_DAO.selectBoardForSearch()에 진입
+2024-01-18 16:43:56,590 | INFO | 11512 | bind.index() 진입
+2024-01-18 16:43:56,591 | INFO | 11512 | user jang enter index
+2024-01-18 16:43:56,591 | INFO | 11512 | bind.index() 종료
+2024-01-18 16:44:00,596 | INFO | 11512 | jang: board.search_results(8번)진입
+2024-01-18 16:44:00,596 | INFO | 11512 | jang: blind_board_DAO.selectBoardForSearch()에 진입
+2024-01-18 16:44:01,663 | INFO | 11512 | bind.index() 진입
+2024-01-18 16:44:01,665 | INFO | 11512 | user jang enter index
+2024-01-18 16:44:01,665 | INFO | 11512 | bind.index() 종료
+2024-01-18 16:44:02,872 | INFO | 11512 | jang: board.detail(24)에 진입
+2024-01-18 16:44:02,872 | INFO | 11512 | jang: blind_bloard_DAO.selectBoardByIdx(24)
+2024-01-18 16:44:02,876 | INFO | 11512 | jang: blind_board_DAO.selectBoardById()종료
+2024-01-18 16:44:02,877 | INFO | 11512 | jang: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-01-18 16:44:02,879 | INFO | 11512 | jang: blind_reply_DAO.selectReplyByIdx()종료
+2024-01-18 16:44:02,879 | INFO | 11512 | jang: board.detail(24)종료
+2024-01-18 16:44:27,318 | INFO | 11512 | myPage() 진입
+2024-01-18 16:44:27,319 | INFO | 11512 | User jang myPage 진입
+2024-01-18 16:44:27,319 | INFO | 11512 | myPage() 종료
+2024-01-18 16:44:28,385 | INFO | 11512 | jang: GET으로 board.write()에 진입
+2024-01-18 16:44:30,121 | INFO | 11512 | jang: POST으로 board.write()에 진입
+2024-01-18 16:44:30,121 | INFO | 11512 | jang: blind_board_DAO.insertBoard()에 진입
+2024-01-18 16:44:30,139 | INFO | 11512 | jang: blind_board_DAO.inesrtBoard()종료
+2024-01-18 16:44:30,139 | INFO | 11512 | jang: board.write()종료
+2024-01-18 16:44:30,144 | INFO | 11512 | bind.index() 진입
+2024-01-18 16:44:30,144 | INFO | 11512 | user jang enter index
+2024-01-18 16:44:30,144 | INFO | 11512 | bind.index() 종료
+2024-01-18 16:44:30,894 | INFO | 11512 | jang: board.detail(25)에 진입
+2024-01-18 16:44:30,894 | INFO | 11512 | jang: blind_bloard_DAO.selectBoardByIdx(25)
+2024-01-18 16:44:30,897 | INFO | 11512 | jang: blind_board_DAO.selectBoardById()종료
+2024-01-18 16:44:30,898 | INFO | 11512 | jang: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-01-18 16:44:30,900 | INFO | 11512 | jang: blind_reply_DAO.selectReplyByIdx()종료
+2024-01-18 16:44:30,901 | INFO | 11512 | jang: board.detail(25)종료
+2024-01-18 16:44:33,557 | INFO | 11512 | jang: board.replyInsert(25)에 진입
+2024-01-18 16:44:33,558 | INFO | 11512 | jang: blind_reply_DAO.insertReply()에 진입
+2024-01-18 16:44:33,562 | INFO | 11512 | jang: blind_reply_DAO.insertReply()종료
+2024-01-18 16:44:33,562 | INFO | 11512 | jang: board.replyInsert(25)종료
+2024-01-18 16:44:33,589 | INFO | 11512 | jang: board.detail(25)에 진입
+2024-01-18 16:44:33,589 | INFO | 11512 | jang: blind_bloard_DAO.selectBoardByIdx(25)
+2024-01-18 16:44:33,591 | INFO | 11512 | jang: blind_board_DAO.selectBoardById()종료
+2024-01-18 16:44:33,591 | INFO | 11512 | jang: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-01-18 16:44:33,591 | INFO | 11512 | jang: blind_reply_DAO.selectReplyByIdx()종료
+2024-01-18 16:44:33,591 | INFO | 11512 | jang: board.detail(25)종료
+2024-01-18 16:44:35,265 | INFO | 11512 | jang: board.deletereply(14)에 진입
+2024-01-18 16:44:35,265 | INFO | 11512 | jang: blind_reply_DAO.selectReplyByIdxrep()에 진입
+2024-01-18 16:44:35,268 | INFO | 11512 | jang: blind_reply_DAO.selectReplyByIdxrep()종료
+2024-01-18 16:44:35,269 | INFO | 11512 | jang: blind_reply_DAO.deleteReplyByIdx()에 진입
+2024-01-18 16:44:35,276 | INFO | 11512 | jang: blind_reply_DAO.deleteReply()종료
+2024-01-18 16:44:35,276 | INFO | 11512 | jang: board.deletereply(25)종료
+2024-01-18 16:44:35,277 | INFO | 11512 | jang: board.detail(25)에 진입
+2024-01-18 16:44:35,277 | INFO | 11512 | jang: blind_bloard_DAO.selectBoardByIdx(25)
+2024-01-18 16:44:35,277 | INFO | 11512 | jang: blind_board_DAO.selectBoardById()종료
+2024-01-18 16:44:35,277 | INFO | 11512 | jang: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-01-18 16:44:35,277 | INFO | 11512 | jang: blind_reply_DAO.selectReplyByIdx()종료
+2024-01-18 16:44:35,277 | INFO | 11512 | jang: board.detail(25)종료
+2024-01-18 16:44:37,095 | INFO | 11512 | jang: board.replyInsert(25)에 진입
+2024-01-18 16:44:37,095 | INFO | 11512 | jang: blind_reply_DAO.insertReply()에 진입
+2024-01-18 16:44:37,095 | INFO | 11512 | jang: blind_reply_DAO.insertReply()종료
+2024-01-18 16:44:37,095 | INFO | 11512 | jang: board.replyInsert(25)종료
+2024-01-18 16:44:37,126 | INFO | 11512 | jang: board.detail(25)에 진입
+2024-01-18 16:44:37,126 | INFO | 11512 | jang: blind_bloard_DAO.selectBoardByIdx(25)
+2024-01-18 16:44:37,129 | INFO | 11512 | jang: blind_board_DAO.selectBoardById()종료
+2024-01-18 16:44:37,129 | INFO | 11512 | jang: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-01-18 16:44:37,131 | INFO | 11512 | jang: blind_reply_DAO.selectReplyByIdx()종료
+2024-01-18 16:44:37,132 | INFO | 11512 | jang: board.detail(25)종료
+2024-01-18 16:51:29,811 | INFO | 11512 | bind.index() 진입
+2024-01-18 16:51:29,814 | INFO | 11512 | user jang enter index
+2024-01-18 16:51:29,814 | INFO | 11512 | bind.index() 종료
+2024-01-18 16:51:29,948 | INFO | 11512 | bind.index() 진입
+2024-01-18 16:51:29,949 | INFO | 11512 | user jang enter index
+2024-01-18 16:51:29,950 | INFO | 11512 | bind.index() 종료
+2024-01-18 16:51:30,452 | INFO | 11512 | jang: board.detail(25)에 진입
+2024-01-18 16:51:30,453 | INFO | 11512 | jang: blind_bloard_DAO.selectBoardByIdx(25)
+2024-01-18 16:51:30,456 | INFO | 11512 | jang: blind_board_DAO.selectBoardById()종료
+2024-01-18 16:51:30,456 | INFO | 11512 | jang: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-01-18 16:51:30,459 | INFO | 11512 | jang: blind_reply_DAO.selectReplyByIdx()종료
+2024-01-18 16:51:30,459 | INFO | 11512 | jang: board.detail(25)종료
+2024-01-18 16:52:03,009 | INFO | 2896 | bind.index() 진입
+2024-01-18 16:52:03,018 | INFO | 2896 | user jang enter index
+2024-01-18 16:52:03,019 | INFO | 2896 | bind.index() 종료
+2024-01-18 16:52:05,233 | INFO | 2896 | bind.index() 진입
+2024-01-18 16:52:05,236 | INFO | 2896 | user jang enter index
+2024-01-18 16:52:05,236 | INFO | 2896 | bind.index() 종료
+2024-01-18 16:52:06,311 | INFO | 2896 | jang: board.detail(25)에 진입
+2024-01-18 16:52:06,311 | INFO | 2896 | jang: blind_bloard_DAO.selectBoardByIdx(25)
+2024-01-18 16:52:06,315 | INFO | 2896 | jang: blind_board_DAO.selectBoardById()종료
+2024-01-18 16:52:06,315 | INFO | 2896 | jang: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-01-18 16:52:06,318 | INFO | 2896 | jang: blind_reply_DAO.selectReplyByIdx()종료
+2024-01-18 16:52:06,318 | INFO | 2896 | jang: board.detail(25)종료
+2024-01-18 16:58:08,285 | WARNING | 11936 |  * Debugger is active!
+2024-01-18 16:58:08,287 | INFO | 11936 |  * Debugger PIN: 251-439-286
+2024-01-18 16:58:17,995 | INFO | 10664 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-18 16:58:17,995 | INFO | 10664 | [33mPress CTRL+C to quit[0m
+2024-01-18 16:58:17,995 | INFO | 10664 |  * Restarting with stat
+2024-01-18 16:58:18,714 | WARNING | 13968 |  * Debugger is active!
+2024-01-18 16:58:18,718 | INFO | 13968 |  * Debugger PIN: 251-439-286
+2024-01-18 16:58:19,435 | INFO | 13968 | 127.0.0.1 - - [18/Jan/2024 16:58:19] "[33mGET /board/delete/25 HTTP/1.1[0m" 404 -
+2024-01-18 16:58:20,497 | INFO | 13968 | jang: board.detail(25)에 진입
+2024-01-18 16:58:20,497 | INFO | 13968 | jang: blind_bloard_DAO.selectBoardByIdx(25)
+2024-01-18 16:58:20,501 | INFO | 13968 | jang: blind_board_DAO.selectBoardById()종료
+2024-01-18 16:58:20,501 | INFO | 13968 | jang: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-01-18 16:58:20,504 | INFO | 13968 | jang: blind_reply_DAO.selectReplyByIdx()종료
+2024-01-18 16:58:20,504 | INFO | 13968 | jang: board.detail(25)종료
+2024-01-18 16:58:20,521 | INFO | 13968 | 127.0.0.1 - - [18/Jan/2024 16:58:20] "GET /board/detail/25 HTTP/1.1" 200 -
+2024-01-18 16:58:20,609 | INFO | 13968 | 127.0.0.1 - - [18/Jan/2024 16:58:20] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-01-18 16:58:20,614 | INFO | 13968 | 127.0.0.1 - - [18/Jan/2024 16:58:20] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-01-18 16:58:20,615 | INFO | 13968 | 127.0.0.1 - - [18/Jan/2024 16:58:20] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-01-18 16:58:20,617 | INFO | 13968 | 127.0.0.1 - - [18/Jan/2024 16:58:20] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-01-18 16:58:20,622 | INFO | 13968 | 127.0.0.1 - - [18/Jan/2024 16:58:20] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-01-18 16:58:20,625 | INFO | 13968 | 127.0.0.1 - - [18/Jan/2024 16:58:20] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-01-18 16:58:21,581 | INFO | 13968 | bind.index() 진입
+2024-01-18 16:58:21,590 | INFO | 13968 | user jang enter index
+2024-01-18 16:58:21,590 | INFO | 13968 | bind.index() 종료
+2024-01-18 16:58:21,596 | INFO | 13968 | 127.0.0.1 - - [18/Jan/2024 16:58:21] "GET /index HTTP/1.1" 200 -
+2024-01-18 16:58:21,619 | INFO | 13968 | 127.0.0.1 - - [18/Jan/2024 16:58:21] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-01-18 16:58:21,623 | INFO | 13968 | 127.0.0.1 - - [18/Jan/2024 16:58:21] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-01-18 16:58:21,627 | INFO | 13968 | 127.0.0.1 - - [18/Jan/2024 16:58:21] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-01-18 16:58:21,627 | INFO | 13968 | 127.0.0.1 - - [18/Jan/2024 16:58:21] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-01-18 16:58:21,628 | INFO | 13968 | 127.0.0.1 - - [18/Jan/2024 16:58:21] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-01-18 16:58:21,636 | INFO | 13968 | 127.0.0.1 - - [18/Jan/2024 16:58:21] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-01-18 16:58:21,642 | INFO | 13968 | 127.0.0.1 - - [18/Jan/2024 16:58:21] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-01-18 16:58:24,746 | INFO | 13968 | jang: board.detail(25)에 진입
+2024-01-18 16:58:24,746 | INFO | 13968 | jang: blind_bloard_DAO.selectBoardByIdx(25)
+2024-01-18 16:58:24,749 | INFO | 13968 | jang: blind_board_DAO.selectBoardById()종료
+2024-01-18 16:58:24,750 | INFO | 13968 | jang: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-01-18 16:58:24,752 | INFO | 13968 | jang: blind_reply_DAO.selectReplyByIdx()종료
+2024-01-18 16:58:24,753 | INFO | 13968 | jang: board.detail(25)종료
+2024-01-18 16:58:24,754 | INFO | 13968 | 127.0.0.1 - - [18/Jan/2024 16:58:24] "GET /board/detail/25 HTTP/1.1" 200 -
+2024-01-18 16:58:24,775 | INFO | 13968 | 127.0.0.1 - - [18/Jan/2024 16:58:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-01-18 16:58:24,786 | INFO | 13968 | 127.0.0.1 - - [18/Jan/2024 16:58:24] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-01-18 16:58:24,786 | INFO | 13968 | 127.0.0.1 - - [18/Jan/2024 16:58:24] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-01-18 16:58:24,787 | INFO | 13968 | 127.0.0.1 - - [18/Jan/2024 16:58:24] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-01-18 16:58:24,787 | INFO | 13968 | 127.0.0.1 - - [18/Jan/2024 16:58:24] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-01-18 16:58:24,794 | INFO | 13968 | 127.0.0.1 - - [18/Jan/2024 16:58:24] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-01-18 16:58:25,700 | INFO | 13968 | 127.0.0.1 - - [18/Jan/2024 16:58:25] "[33mGET /board/delete/25 HTTP/1.1[0m" 404 -
+2024-01-18 16:59:07,036 | INFO | 13968 |  * Detected change in 'c:\\blind_project\\board.py', reloading
+2024-01-18 16:59:07,195 | INFO | 10664 |  * Restarting with stat
+2024-01-18 16:59:07,977 | WARNING | 12696 |  * Debugger is active!
+2024-01-18 16:59:07,977 | INFO | 12696 |  * Debugger PIN: 251-439-286
+2024-01-18 17:02:51,446 | INFO | 12696 |  * Detected change in 'c:\\blind_project\\board.py', reloading
+2024-01-18 17:02:51,573 | INFO | 10664 |  * Restarting with stat
+2024-01-18 17:02:52,546 | WARNING | 4660 |  * Debugger is active!
+2024-01-18 17:02:52,546 | INFO | 4660 |  * Debugger PIN: 251-439-286
+2024-01-18 17:02:55,025 | INFO | 4660 | jang: board.detail(25)에 진입
+2024-01-18 17:02:55,025 | INFO | 4660 | jang: blind_bloard_DAO.selectBoardByIdx(25)
+2024-01-18 17:02:55,029 | INFO | 4660 | jang: blind_board_DAO.selectBoardById()종료
+2024-01-18 17:02:55,030 | INFO | 4660 | jang: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-01-18 17:02:55,033 | INFO | 4660 | jang: blind_reply_DAO.selectReplyByIdx()종료
+2024-01-18 17:02:55,033 | INFO | 4660 | jang: board.detail(25)종료
+2024-01-18 17:02:55,049 | INFO | 4660 | 127.0.0.1 - - [18/Jan/2024 17:02:55] "GET /board/detail/25 HTTP/1.1" 200 -
+2024-01-18 17:02:55,107 | INFO | 4660 | 127.0.0.1 - - [18/Jan/2024 17:02:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-01-18 17:02:55,126 | INFO | 4660 | 127.0.0.1 - - [18/Jan/2024 17:02:55] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-01-18 17:02:55,129 | INFO | 4660 | 127.0.0.1 - - [18/Jan/2024 17:02:55] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-01-18 17:02:55,133 | INFO | 4660 | 127.0.0.1 - - [18/Jan/2024 17:02:55] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-01-18 17:02:55,136 | INFO | 4660 | 127.0.0.1 - - [18/Jan/2024 17:02:55] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-01-18 17:02:55,140 | INFO | 4660 | 127.0.0.1 - - [18/Jan/2024 17:02:55] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-01-18 17:02:55,982 | INFO | 4660 | jang: board.delete(25)에 진입함
+2024-01-18 17:02:55,983 | INFO | 4660 | jang: blind_board_DAO.deleteBoardIdx()에 진입
+2024-01-18 17:02:55,991 | INFO | 4660 | jang: blind_board_deleteBoardByIdx()종료
+2024-01-18 17:02:55,991 | INFO | 4660 | jang: board.delete(25)종료
+2024-01-18 17:02:55,992 | INFO | 4660 | 127.0.0.1 - - [18/Jan/2024 17:02:55] "[32mGET /board/delete/25 HTTP/1.1[0m" 302 -
+2024-01-18 17:02:55,995 | INFO | 4660 | bind.index() 진입
+2024-01-18 17:02:56,002 | INFO | 4660 | user jang enter index
+2024-01-18 17:02:56,003 | INFO | 4660 | bind.index() 종료
+2024-01-18 17:02:56,010 | INFO | 4660 | 127.0.0.1 - - [18/Jan/2024 17:02:56] "GET /index HTTP/1.1" 200 -
+2024-01-18 17:02:56,030 | INFO | 4660 | 127.0.0.1 - - [18/Jan/2024 17:02:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-01-18 17:02:56,041 | INFO | 4660 | 127.0.0.1 - - [18/Jan/2024 17:02:56] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-01-18 17:02:56,041 | INFO | 4660 | 127.0.0.1 - - [18/Jan/2024 17:02:56] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-01-18 17:02:56,041 | INFO | 4660 | 127.0.0.1 - - [18/Jan/2024 17:02:56] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-01-18 17:02:56,042 | INFO | 4660 | 127.0.0.1 - - [18/Jan/2024 17:02:56] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-01-18 17:02:56,055 | INFO | 4660 | 127.0.0.1 - - [18/Jan/2024 17:02:56] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-01-18 17:02:56,055 | INFO | 4660 | 127.0.0.1 - - [18/Jan/2024 17:02:56] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-01-18 17:05:37,075 | INFO | 4660 | bind.index() 진입
+2024-01-18 17:05:37,077 | INFO | 4660 | user jang enter index
+2024-01-18 17:05:37,077 | INFO | 4660 | bind.index() 종료
+2024-01-18 17:05:37,080 | INFO | 4660 | 127.0.0.1 - - [18/Jan/2024 17:05:37] "GET /index HTTP/1.1" 200 -
+2024-01-18 17:05:37,096 | INFO | 4660 | 127.0.0.1 - - [18/Jan/2024 17:05:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-01-18 17:05:37,104 | INFO | 4660 | 127.0.0.1 - - [18/Jan/2024 17:05:37] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-01-18 17:05:37,105 | INFO | 4660 | 127.0.0.1 - - [18/Jan/2024 17:05:37] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-01-18 17:05:37,105 | INFO | 4660 | 127.0.0.1 - - [18/Jan/2024 17:05:37] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-01-18 17:05:37,106 | INFO | 4660 | 127.0.0.1 - - [18/Jan/2024 17:05:37] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-01-18 17:05:37,123 | INFO | 4660 | 127.0.0.1 - - [18/Jan/2024 17:05:37] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-01-18 17:05:37,129 | INFO | 4660 | 127.0.0.1 - - [18/Jan/2024 17:05:37] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 10:41:36,037 | INFO | 11576 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-02-28 10:41:36,038 | INFO | 11576 | [33mPress CTRL+C to quit[0m
+2024-02-28 10:41:36,041 | INFO | 11576 |  * Restarting with stat
+2024-02-28 10:41:36,797 | WARNING | 5972 |  * Debugger is active!
+2024-02-28 10:41:36,800 | INFO | 5972 |  * Debugger PIN: 251-439-286
+2024-02-28 10:41:41,814 | INFO | 5972 | guest: blind_board_DAO.selectBoard()종료
+2024-02-28 10:41:41,814 | INFO | 5972 | Welcome to the BLIND
+2024-02-28 10:41:41,826 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:41] "GET / HTTP/1.1" 200 -
+2024-02-28 10:41:41,956 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:41] "GET /static/img/logo.png HTTP/1.1" 200 -
+2024-02-28 10:41:41,960 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:41] "GET /static/img/main_banner.png HTTP/1.1" 200 -
+2024-02-28 10:41:41,967 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:41] "GET /static/css/font.css HTTP/1.1" 200 -
+2024-02-28 10:41:41,972 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:41] "GET /static/css/search.css HTTP/1.1" 200 -
+2024-02-28 10:41:41,975 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:41] "GET /static/img/main_banner2.png HTTP/1.1" 200 -
+2024-02-28 10:41:41,975 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:41] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-02-28 10:41:41,989 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:41] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2024-02-28 10:41:42,251 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-02-28 10:41:48,003 | INFO | 5972 | guest: blind_board_DAO.selectBoard()종료
+2024-02-28 10:41:48,003 | INFO | 5972 | Welcome to the BLIND
+2024-02-28 10:41:48,005 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:48] "GET / HTTP/1.1" 200 -
+2024-02-28 10:41:48,029 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 10:41:48,040 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:48] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 10:41:48,042 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:48] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-02-28 10:41:48,043 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:48] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 10:41:48,044 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:48] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 10:41:48,067 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:48] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 10:41:48,071 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:48] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 10:41:48,469 | INFO | 5972 | guest: blind_board_DAO.selectBoard()종료
+2024-02-28 10:41:48,469 | INFO | 5972 | Welcome to the BLIND
+2024-02-28 10:41:48,471 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:48] "GET / HTTP/1.1" 200 -
+2024-02-28 10:41:48,494 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 10:41:48,504 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:48] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 10:41:48,506 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:48] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 10:41:48,506 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:48] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-02-28 10:41:48,506 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:48] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 10:41:48,517 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:48] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 10:41:48,526 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:48] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 10:41:52,220 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:52] "[32mPOST /board/search HTTP/1.1[0m" 302 -
+2024-02-28 10:41:52,225 | INFO | 5972 | guest: board.search_results(tz)진입
+2024-02-28 10:41:52,226 | INFO | 5972 | guest: blind_board_DAO.selectBoardForSearch()에 진입
+2024-02-28 10:41:52,229 | INFO | 5972 | guest: board.search_results(tz)종료
+2024-02-28 10:41:52,245 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:52] "GET /board/search_results/tz HTTP/1.1" 200 -
+2024-02-28 10:41:52,278 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 10:41:52,285 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:52] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 10:41:52,288 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:52] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-02-28 10:41:52,292 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:52] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 10:41:52,295 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:52] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 10:41:52,296 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:52] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 10:41:52,304 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:52] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 10:41:56,059 | INFO | 5972 | guest: board.search_results(tz)진입
+2024-02-28 10:41:56,060 | INFO | 5972 | guest: blind_board_DAO.selectBoardForSearch()에 진입
+2024-02-28 10:41:56,063 | INFO | 5972 | guest: board.search_results(tz)종료
+2024-02-28 10:41:56,065 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:56] "GET /board/search_results/tz HTTP/1.1" 200 -
+2024-02-28 10:41:56,084 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 10:41:56,093 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:56] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 10:41:56,093 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:56] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-02-28 10:41:56,093 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:56] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 10:41:56,095 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:56] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 10:41:56,110 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:56] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 10:41:56,111 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:56] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 10:41:57,423 | INFO | 5972 | guest: board.search_results(tz)진입
+2024-02-28 10:41:57,424 | INFO | 5972 | guest: blind_board_DAO.selectBoardForSearch()에 진입
+2024-02-28 10:41:57,444 | INFO | 5972 | guest: board.search_results(tz)종료
+2024-02-28 10:41:57,445 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:57] "GET /board/search_results/tz HTTP/1.1" 200 -
+2024-02-28 10:41:57,466 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 10:41:57,472 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:57] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 10:41:57,478 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:57] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-02-28 10:41:57,480 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:57] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 10:41:57,481 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:57] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 10:41:57,497 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:57] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 10:41:57,499 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:57] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 10:41:58,905 | INFO | 5972 | bind.index() 진입
+2024-02-28 10:41:58,916 | INFO | 5972 | enter index
+2024-02-28 10:41:58,916 | INFO | 5972 | bind.index() 종료
+2024-02-28 10:41:58,918 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:58] "GET /index HTTP/1.1" 200 -
+2024-02-28 10:41:58,945 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 10:41:58,950 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:58] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 10:41:58,955 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:58] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 10:41:58,955 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:58] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-02-28 10:41:58,957 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:58] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 10:41:58,969 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:58] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 10:41:58,972 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:41:58] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 10:42:42,024 | INFO | 5972 | member.login() GET 진입
+2024-02-28 10:42:42,024 | INFO | 5972 | enter the login page
+2024-02-28 10:42:42,029 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:42] "GET /member/login HTTP/1.1" 200 -
+2024-02-28 10:42:42,072 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:42,078 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:42] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:42,079 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:42] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:42,081 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:42] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:42,095 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:42] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 10:42:42,096 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:42] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:44,659 | INFO | 5972 | bind.index() 진입
+2024-02-28 10:42:44,661 | INFO | 5972 | enter index
+2024-02-28 10:42:44,662 | INFO | 5972 | bind.index() 종료
+2024-02-28 10:42:44,663 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:44] "GET /index HTTP/1.1" 200 -
+2024-02-28 10:42:44,685 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:44,697 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:44] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:44,698 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:44] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:44,699 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:44] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:44,700 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:44] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:44,714 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:44] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:44,714 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:44] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 10:42:45,195 | INFO | 5972 | bind.index() 진입
+2024-02-28 10:42:45,197 | INFO | 5972 | enter index
+2024-02-28 10:42:45,197 | INFO | 5972 | bind.index() 종료
+2024-02-28 10:42:45,199 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:45] "GET /index HTTP/1.1" 200 -
+2024-02-28 10:42:45,217 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:45,226 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:45] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:45,226 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:45] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:45,227 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:45] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:45,228 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:45] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:45,237 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:45] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:45,243 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:45] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 10:42:45,513 | INFO | 5972 | bind.index() 진입
+2024-02-28 10:42:45,515 | INFO | 5972 | enter index
+2024-02-28 10:42:45,515 | INFO | 5972 | bind.index() 종료
+2024-02-28 10:42:45,517 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:45] "GET /index HTTP/1.1" 200 -
+2024-02-28 10:42:45,535 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:45,541 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:45] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:45,546 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:45] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:45,549 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:45] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:45,552 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:45] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:45,568 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:45] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:45,569 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:45] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 10:42:51,917 | INFO | 5972 | member.login() GET 진입
+2024-02-28 10:42:51,918 | INFO | 5972 | enter the login page
+2024-02-28 10:42:51,919 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:51] "GET /member/login HTTP/1.1" 200 -
+2024-02-28 10:42:51,939 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:51,950 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:51] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:51,951 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:51] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:51,952 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:51] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:51,964 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:51] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 10:42:51,965 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:51] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:53,696 | INFO | 5972 | bind.index() 진입
+2024-02-28 10:42:53,698 | INFO | 5972 | enter index
+2024-02-28 10:42:53,699 | INFO | 5972 | bind.index() 종료
+2024-02-28 10:42:53,701 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:53] "GET /index HTTP/1.1" 200 -
+2024-02-28 10:42:53,722 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:53,732 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:53] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:53,734 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:53] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:53,737 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:53] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:53,739 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:53] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:53,747 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:53] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:53,748 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:53] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 10:42:54,433 | INFO | 5972 | bind.index() 진입
+2024-02-28 10:42:54,435 | INFO | 5972 | enter index
+2024-02-28 10:42:54,435 | INFO | 5972 | bind.index() 종료
+2024-02-28 10:42:54,437 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:54] "GET /index HTTP/1.1" 200 -
+2024-02-28 10:42:54,462 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:54,470 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:54] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:54,471 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:54] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:54,473 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:54] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:54,474 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:54] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:54,491 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:54] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:54,491 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:54] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 10:42:55,225 | INFO | 5972 | bind.index() 진입
+2024-02-28 10:42:55,227 | INFO | 5972 | enter index
+2024-02-28 10:42:55,227 | INFO | 5972 | bind.index() 종료
+2024-02-28 10:42:55,229 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:55] "GET /index HTTP/1.1" 200 -
+2024-02-28 10:42:55,252 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:55,259 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:55] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:55,260 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:55] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:55,264 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:55] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:55,266 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:55] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:55,278 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:55] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:55,279 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:55] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 10:42:55,656 | INFO | 5972 | member.login() GET 진입
+2024-02-28 10:42:55,657 | INFO | 5972 | enter the login page
+2024-02-28 10:42:55,658 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:55] "GET /member/login HTTP/1.1" 200 -
+2024-02-28 10:42:55,679 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:55,687 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:55] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:55,687 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:55] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:55,688 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:55] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:55,698 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:55] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:55,705 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:55] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 10:42:56,033 | INFO | 5972 | bind.index() 진입
+2024-02-28 10:42:56,035 | INFO | 5972 | enter index
+2024-02-28 10:42:56,035 | INFO | 5972 | bind.index() 종료
+2024-02-28 10:42:56,037 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:56] "GET /index HTTP/1.1" 200 -
+2024-02-28 10:42:56,061 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:56,076 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:56] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:56,076 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:56] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:56,078 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:56] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:56,080 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:56] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:56,098 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:56] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:56,099 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:56] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 10:42:56,559 | INFO | 5972 | member.register() GET 진입
+2024-02-28 10:42:56,560 | INFO | 5972 | enter the sign up page
+2024-02-28 10:42:56,565 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:56] "GET /member/register HTTP/1.1" 200 -
+2024-02-28 10:42:56,587 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:56,594 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:56] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:56,596 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:56] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:56,597 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:56] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:56,612 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:56] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:56,613 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:56] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 10:42:57,875 | INFO | 5972 | member.login() GET 진입
+2024-02-28 10:42:57,875 | INFO | 5972 | enter the login page
+2024-02-28 10:42:57,876 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:57] "GET /member/login HTTP/1.1" 200 -
+2024-02-28 10:42:57,898 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:57,908 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:57] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:57,911 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:57] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:57,912 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:57] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:57,924 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:57] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 10:42:57,924 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:57] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:58,484 | INFO | 5972 | bind.index() 진입
+2024-02-28 10:42:58,485 | INFO | 5972 | enter index
+2024-02-28 10:42:58,486 | INFO | 5972 | bind.index() 종료
+2024-02-28 10:42:58,488 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:58] "GET /index HTTP/1.1" 200 -
+2024-02-28 10:42:58,512 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:58,523 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:58] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:58,524 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:58] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:58,526 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:58] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:58,529 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:58] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:58,539 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:58] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:58,540 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:58] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 10:42:59,007 | INFO | 5972 | member.register() GET 진입
+2024-02-28 10:42:59,007 | INFO | 5972 | enter the sign up page
+2024-02-28 10:42:59,008 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:59] "GET /member/register HTTP/1.1" 200 -
+2024-02-28 10:42:59,034 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:59,047 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:59] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:59,048 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:59] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:59,049 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:59] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:59,062 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:59] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:59,062 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:59] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 10:42:59,399 | INFO | 5972 | member.login() GET 진입
+2024-02-28 10:42:59,400 | INFO | 5972 | enter the login page
+2024-02-28 10:42:59,401 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:59] "GET /member/login HTTP/1.1" 200 -
+2024-02-28 10:42:59,422 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:59,429 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:59] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:59,429 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:59] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:59,431 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:59] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:59,445 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:59] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:59,446 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:59] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 10:42:59,692 | INFO | 5972 | bind.index() 진입
+2024-02-28 10:42:59,693 | INFO | 5972 | enter index
+2024-02-28 10:42:59,694 | INFO | 5972 | bind.index() 종료
+2024-02-28 10:42:59,696 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:59] "GET /index HTTP/1.1" 200 -
+2024-02-28 10:42:59,716 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:59,730 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:59] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:59,730 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:59] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:59,731 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:59] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-02-28 10:42:59,731 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:59] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:59,740 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:59] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 10:42:59,746 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:42:59] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 10:43:00,163 | INFO | 5972 | member.login() GET 진입
+2024-02-28 10:43:00,164 | INFO | 5972 | enter the login page
+2024-02-28 10:43:00,165 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:00] "GET /member/login HTTP/1.1" 200 -
+2024-02-28 10:43:00,192 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:00] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 10:43:00,199 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:00] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 10:43:00,203 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:00] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 10:43:00,203 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:00] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 10:43:00,218 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:00] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 10:43:00,221 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:00] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 10:43:00,666 | INFO | 5972 | member.register() GET 진입
+2024-02-28 10:43:00,667 | INFO | 5972 | enter the sign up page
+2024-02-28 10:43:00,668 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:00] "GET /member/register HTTP/1.1" 200 -
+2024-02-28 10:43:00,701 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:00] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 10:43:00,702 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:00] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 10:43:00,704 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:00] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 10:43:00,707 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:00] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 10:43:00,720 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:00] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 10:43:00,724 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:00] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 10:43:01,164 | INFO | 5972 | bind.index() 진입
+2024-02-28 10:43:01,165 | INFO | 5972 | enter index
+2024-02-28 10:43:01,166 | INFO | 5972 | bind.index() 종료
+2024-02-28 10:43:01,168 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:01] "GET /index HTTP/1.1" 200 -
+2024-02-28 10:43:01,191 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 10:43:01,199 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:01] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 10:43:01,199 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:01] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 10:43:01,200 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:01] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-02-28 10:43:01,200 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:01] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 10:43:01,212 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:01] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 10:43:01,214 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:01] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 10:43:01,615 | INFO | 5972 | bind.index() 진입
+2024-02-28 10:43:01,617 | INFO | 5972 | enter index
+2024-02-28 10:43:01,617 | INFO | 5972 | bind.index() 종료
+2024-02-28 10:43:01,619 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:01] "GET /index HTTP/1.1" 200 -
+2024-02-28 10:43:01,638 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 10:43:01,646 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:01] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 10:43:01,646 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:01] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-02-28 10:43:01,647 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:01] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 10:43:01,651 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:01] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 10:43:01,664 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:01] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 10:43:01,669 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:01] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 10:43:02,444 | INFO | 5972 | bind.index() 진입
+2024-02-28 10:43:02,446 | INFO | 5972 | enter index
+2024-02-28 10:43:02,446 | INFO | 5972 | bind.index() 종료
+2024-02-28 10:43:02,448 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:02] "GET /index HTTP/1.1" 200 -
+2024-02-28 10:43:02,471 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 10:43:02,479 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:02] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 10:43:02,480 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:02] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-02-28 10:43:02,480 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:02] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 10:43:02,481 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:02] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 10:43:02,497 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:02] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 10:43:02,498 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:02] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 10:43:02,708 | INFO | 5972 | bind.index() 진입
+2024-02-28 10:43:02,710 | INFO | 5972 | enter index
+2024-02-28 10:43:02,710 | INFO | 5972 | bind.index() 종료
+2024-02-28 10:43:02,712 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:02] "GET /index HTTP/1.1" 200 -
+2024-02-28 10:43:02,731 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 10:43:02,738 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:02] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 10:43:02,741 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:02] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-02-28 10:43:02,742 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:02] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 10:43:02,745 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:02] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 10:43:02,758 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:02] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 10:43:02,759 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:02] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 10:43:03,010 | INFO | 5972 | bind.index() 진입
+2024-02-28 10:43:03,012 | INFO | 5972 | enter index
+2024-02-28 10:43:03,012 | INFO | 5972 | bind.index() 종료
+2024-02-28 10:43:03,014 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:03] "GET /index HTTP/1.1" 200 -
+2024-02-28 10:43:03,035 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 10:43:03,040 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:03] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 10:43:03,043 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:03] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-02-28 10:43:03,045 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:03] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 10:43:03,049 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:03] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 10:43:03,060 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:03] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 10:43:03,061 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:03] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 10:43:03,496 | INFO | 5972 | bind.index() 진입
+2024-02-28 10:43:03,497 | INFO | 5972 | enter index
+2024-02-28 10:43:03,498 | INFO | 5972 | bind.index() 종료
+2024-02-28 10:43:03,500 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:03] "GET /index HTTP/1.1" 200 -
+2024-02-28 10:43:03,521 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 10:43:03,527 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:03] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 10:43:03,530 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:03] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-02-28 10:43:03,532 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:03] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 10:43:03,534 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:03] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 10:43:03,545 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:03] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 10:43:03,546 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:03] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 10:43:03,643 | INFO | 5972 | bind.index() 진입
+2024-02-28 10:43:03,645 | INFO | 5972 | enter index
+2024-02-28 10:43:03,645 | INFO | 5972 | bind.index() 종료
+2024-02-28 10:43:03,647 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:03] "GET /index HTTP/1.1" 200 -
+2024-02-28 10:43:03,666 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 10:43:03,697 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:03] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 10:43:03,699 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:03] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-02-28 10:43:03,701 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:03] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 10:43:03,703 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:03] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 10:43:03,717 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:03] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 10:43:03,718 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:03] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 10:43:04,085 | INFO | 5972 | bind.index() 진입
+2024-02-28 10:43:04,087 | INFO | 5972 | enter index
+2024-02-28 10:43:04,087 | INFO | 5972 | bind.index() 종료
+2024-02-28 10:43:04,090 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:04] "GET /index HTTP/1.1" 200 -
+2024-02-28 10:43:04,108 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 10:43:04,114 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:04] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 10:43:04,116 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:04] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-02-28 10:43:04,119 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:04] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 10:43:04,121 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:04] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 10:43:04,132 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:04] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 10:43:04,133 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:04] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 10:43:04,425 | INFO | 5972 | bind.index() 진입
+2024-02-28 10:43:04,426 | INFO | 5972 | enter index
+2024-02-28 10:43:04,427 | INFO | 5972 | bind.index() 종료
+2024-02-28 10:43:04,429 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:04] "GET /index HTTP/1.1" 200 -
+2024-02-28 10:43:04,449 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 10:43:04,457 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:04] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-02-28 10:43:04,457 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:04] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 10:43:04,458 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:04] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 10:43:04,460 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:04] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 10:43:04,473 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:04] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 10:43:04,473 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:04] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 10:43:04,705 | INFO | 5972 | bind.index() 진입
+2024-02-28 10:43:04,706 | INFO | 5972 | enter index
+2024-02-28 10:43:04,707 | INFO | 5972 | bind.index() 종료
+2024-02-28 10:43:04,708 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:04] "GET /index HTTP/1.1" 200 -
+2024-02-28 10:43:04,730 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 10:43:04,738 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:04] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-02-28 10:43:04,738 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:04] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 10:43:04,739 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:04] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 10:43:04,739 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:04] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 10:43:04,754 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:04] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 10:43:04,755 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 10:43:04] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 12:13:27,679 | INFO | 5972 | bind.index() 진입
+2024-02-28 12:13:27,681 | INFO | 5972 | enter index
+2024-02-28 12:13:27,682 | INFO | 5972 | bind.index() 종료
+2024-02-28 12:13:27,684 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:27] "GET /index HTTP/1.1" 200 -
+2024-02-28 12:13:27,703 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 12:13:27,713 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:27] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-02-28 12:13:27,714 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:27] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 12:13:27,721 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:27] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 12:13:27,724 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:27] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 12:13:27,738 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:27] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 12:13:27,745 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:27] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 12:13:28,238 | INFO | 5972 | bind.index() 진입
+2024-02-28 12:13:28,240 | INFO | 5972 | enter index
+2024-02-28 12:13:28,240 | INFO | 5972 | bind.index() 종료
+2024-02-28 12:13:28,242 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:28] "GET /index HTTP/1.1" 200 -
+2024-02-28 12:13:28,263 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 12:13:28,270 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:28] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 12:13:28,274 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:28] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-02-28 12:13:28,274 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:28] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 12:13:28,275 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:28] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 12:13:28,289 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:28] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 12:13:28,290 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:28] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 12:13:28,541 | INFO | 5972 | member.login() GET 진입
+2024-02-28 12:13:28,542 | INFO | 5972 | enter the login page
+2024-02-28 12:13:28,543 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:28] "GET /member/login HTTP/1.1" 200 -
+2024-02-28 12:13:28,578 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 12:13:28,579 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:28] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 12:13:28,580 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:28] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 12:13:28,584 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:28] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 12:13:28,597 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:28] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 12:13:28,599 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:28] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 12:13:29,177 | INFO | 5972 | member.register() GET 진입
+2024-02-28 12:13:29,178 | INFO | 5972 | enter the sign up page
+2024-02-28 12:13:29,179 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:29] "GET /member/register HTTP/1.1" 200 -
+2024-02-28 12:13:29,205 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 12:13:29,212 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:29] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 12:13:29,216 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:29] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 12:13:29,217 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:29] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 12:13:29,230 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:29] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 12:13:29,230 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:29] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 12:13:30,031 | INFO | 5972 | member.login() GET 진입
+2024-02-28 12:13:30,031 | INFO | 5972 | enter the login page
+2024-02-28 12:13:30,032 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:30] "GET /member/login HTTP/1.1" 200 -
+2024-02-28 12:13:30,056 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 12:13:30,065 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:30] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 12:13:30,066 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:30] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 12:13:30,067 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:30] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 12:13:30,078 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:30] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 12:13:30,079 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:30] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 12:13:30,490 | INFO | 5972 | member.register() GET 진입
+2024-02-28 12:13:30,490 | INFO | 5972 | enter the sign up page
+2024-02-28 12:13:30,491 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:30] "GET /member/register HTTP/1.1" 200 -
+2024-02-28 12:13:30,521 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 12:13:30,527 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:30] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 12:13:30,528 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:30] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 12:13:30,529 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:30] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 12:13:30,541 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:30] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 12:13:30,542 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:30] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 12:13:40,348 | INFO | 5972 | member.login() GET 진입
+2024-02-28 12:13:40,348 | INFO | 5972 | enter the login page
+2024-02-28 12:13:40,350 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:40] "GET /member/login HTTP/1.1" 200 -
+2024-02-28 12:13:40,374 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 12:13:40,386 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:40] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 12:13:40,386 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:40] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 12:13:40,387 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:40] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 12:13:40,401 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:40] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 12:13:40,401 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:40] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 12:13:41,814 | INFO | 5972 | bind.index() 진입
+2024-02-28 12:13:41,816 | INFO | 5972 | enter index
+2024-02-28 12:13:41,816 | INFO | 5972 | bind.index() 종료
+2024-02-28 12:13:41,818 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:41] "GET /index HTTP/1.1" 200 -
+2024-02-28 12:13:41,841 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 12:13:41,851 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:41] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 12:13:41,852 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:41] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-02-28 12:13:41,854 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:41] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 12:13:41,857 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:41] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 12:13:41,866 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:41] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 12:13:41,868 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:41] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 12:13:44,074 | INFO | 5972 | guest: board.detail(4)에 진입
+2024-02-28 12:13:44,074 | INFO | 5972 | guest: blind_bloard_DAO.selectBoardByIdx(4)
+2024-02-28 12:13:44,080 | INFO | 5972 | guest: blind_board_DAO.selectBoardById()종료
+2024-02-28 12:13:44,080 | INFO | 5972 | guest: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-02-28 12:13:44,093 | INFO | 5972 | guest: blind_reply_DAO.selectReplyByIdx()종료
+2024-02-28 12:13:44,093 | INFO | 5972 | guest: board.detail(4)종료
+2024-02-28 12:13:44,112 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:44] "GET /board/detail/4 HTTP/1.1" 200 -
+2024-02-28 12:13:44,139 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 12:13:44,149 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:44] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 12:13:44,151 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:44] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 12:13:44,151 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:44] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 12:13:44,162 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:44] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 12:13:44,163 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:44] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 12:13:46,205 | INFO | 5972 | bind.index() 진입
+2024-02-28 12:13:46,207 | INFO | 5972 | enter index
+2024-02-28 12:13:46,207 | INFO | 5972 | bind.index() 종료
+2024-02-28 12:13:46,209 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:46] "GET /index HTTP/1.1" 200 -
+2024-02-28 12:13:46,232 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 12:13:46,240 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:46] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 12:13:46,242 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:46] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 12:13:46,242 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:46] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 12:13:46,242 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:46] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-02-28 12:13:46,251 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:46] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 12:13:46,254 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:46] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 12:13:50,518 | INFO | 5972 | guest: board.detail(15)에 진입
+2024-02-28 12:13:50,519 | INFO | 5972 | guest: blind_bloard_DAO.selectBoardByIdx(15)
+2024-02-28 12:13:50,540 | INFO | 5972 | guest: blind_board_DAO.selectBoardById()종료
+2024-02-28 12:13:50,540 | INFO | 5972 | guest: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-02-28 12:13:50,543 | INFO | 5972 | guest: blind_reply_DAO.selectReplyByIdx()종료
+2024-02-28 12:13:50,544 | INFO | 5972 | guest: board.detail(15)종료
+2024-02-28 12:13:50,545 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:50] "GET /board/detail/15 HTTP/1.1" 200 -
+2024-02-28 12:13:50,569 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 12:13:50,582 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:50] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 12:13:50,584 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:50] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 12:13:50,584 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:50] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 12:13:50,597 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:50] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-02-28 12:13:50,598 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:13:50] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 12:16:05,096 | INFO | 5972 | guest: board.detail(13)에 진입
+2024-02-28 12:16:05,097 | INFO | 5972 | guest: blind_bloard_DAO.selectBoardByIdx(13)
+2024-02-28 12:16:05,100 | INFO | 5972 | guest: blind_board_DAO.selectBoardById()종료
+2024-02-28 12:16:05,101 | INFO | 5972 | guest: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-02-28 12:16:05,104 | INFO | 5972 | guest: blind_reply_DAO.selectReplyByIdx()종료
+2024-02-28 12:16:05,105 | INFO | 5972 | guest: board.detail(13)종료
+2024-02-28 12:16:05,106 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:16:05] "GET /board/detail/13 HTTP/1.1" 200 -
+2024-02-28 12:16:05,154 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:16:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-02-28 12:16:05,166 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:16:05] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-02-28 12:16:05,167 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:16:05] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-02-28 12:16:05,168 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:16:05] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-02-28 12:16:05,173 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:16:05] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-02-28 12:16:05,174 | INFO | 5972 | 127.0.0.1 - - [28/Feb/2024 12:16:05] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-02 17:02:50,160 | INFO | 23336 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-02 17:02:50,161 | INFO | 23336 | [33mPress CTRL+C to quit[0m
+2024-03-02 17:02:50,167 | INFO | 23336 |  * Restarting with stat
+2024-03-02 17:02:50,525 | WARNING | 2648 |  * Debugger is active!
+2024-03-02 17:02:50,533 | INFO | 2648 |  * Debugger PIN: 106-142-433
+2024-03-02 17:08:40,724 | INFO | 2648 |  * Detected change in 'c:\\Users\\jaeyeong\\Desktop\\blind_project\\blind_board_DAO.py', reloading
+2024-03-02 17:08:40,765 | INFO | 23336 |  * Restarting with stat
+2024-03-02 17:08:41,141 | WARNING | 21788 |  * Debugger is active!
+2024-03-02 17:08:41,150 | INFO | 21788 |  * Debugger PIN: 106-142-433
+2024-03-02 17:08:45,189 | INFO | 21788 |  * Detected change in 'c:\\Users\\jaeyeong\\Desktop\\blind_project\\blind_member_DAO.py', reloading
+2024-03-02 17:08:45,281 | INFO | 23336 |  * Restarting with stat
+2024-03-02 17:08:45,678 | WARNING | 11952 |  * Debugger is active!
+2024-03-02 17:08:45,692 | INFO | 11952 |  * Debugger PIN: 106-142-433
+2024-03-02 17:08:47,715 | INFO | 11952 |  * Detected change in 'c:\\Users\\jaeyeong\\Desktop\\blind_project\\blind_reply_DAO.py', reloading
+2024-03-02 17:08:47,748 | INFO | 23336 |  * Restarting with stat
+2024-03-02 17:08:48,128 | WARNING | 8208 |  * Debugger is active!
+2024-03-02 17:08:48,137 | INFO | 8208 |  * Debugger PIN: 106-142-433
+2024-03-02 17:09:07,694 | INFO | 8208 | guest: blind_board_DAO.selectBoard()종료
+2024-03-02 17:09:07,695 | INFO | 8208 | Welcome to the BLIND
+2024-03-02 17:09:07,706 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:09:07] "GET / HTTP/1.1" 200 -
+2024-03-02 17:09:07,853 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:09:07] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-03-02 17:09:07,871 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:09:07] "GET /static/css/font.css HTTP/1.1" 200 -
+2024-03-02 17:09:07,875 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:09:07] "GET /static/css/search.css HTTP/1.1" 200 -
+2024-03-02 17:09:07,876 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:09:07] "GET /static/img/main_banner.png HTTP/1.1" 200 -
+2024-03-02 17:09:07,877 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:09:07] "GET /static/img/logo.png HTTP/1.1" 200 -
+2024-03-02 17:09:07,889 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:09:07] "GET /static/img/main_banner2.png HTTP/1.1" 200 -
+2024-03-02 17:09:07,897 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:09:07] "GET /static/js/scripts.js HTTP/1.1" 200 -
+2024-03-02 17:09:08,223 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:09:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-03-02 17:09:34,443 | INFO | 8208 | guest: blind_board_DAO.selectBoard()종료
+2024-03-02 17:09:34,443 | INFO | 8208 | Welcome to the BLIND
+2024-03-02 17:09:34,444 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:09:34] "GET / HTTP/1.1" 200 -
+2024-03-02 17:09:34,456 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:09:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-02 17:09:34,462 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:09:34] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-02 17:09:34,467 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:09:34] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-03-02 17:09:34,467 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:09:34] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-02 17:09:34,471 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:09:34] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-02 17:09:34,484 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:09:34] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-02 17:09:34,488 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:09:34] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-02 17:09:56,073 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:09:56] "[32mPOST /board/search HTTP/1.1[0m" 302 -
+2024-03-02 17:09:56,078 | INFO | 8208 | guest: board.search_results(테스트)진입
+2024-03-02 17:09:56,079 | INFO | 8208 | guest: blind_board_DAO.selectBoardForSearch()에 진입
+2024-03-02 17:09:56,104 | INFO | 8208 | guest: board.search_results(테스트)종료
+2024-03-02 17:09:56,110 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:09:56] "GET /board/search_results/테스트 HTTP/1.1" 200 -
+2024-03-02 17:09:56,139 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:09:56] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-02 17:09:56,139 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:09:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-02 17:09:56,140 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:09:56] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-03-02 17:09:56,140 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:09:56] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-02 17:09:56,140 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:09:56] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-02 17:09:56,141 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:09:56] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-02 17:09:56,159 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:09:56] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-02 17:15:03,154 | INFO | 8208 | guest: blind_board_DAO.selectBoard()종료
+2024-03-02 17:15:03,156 | INFO | 8208 | Welcome to the BLIND
+2024-03-02 17:15:03,158 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:15:03] "GET / HTTP/1.1" 200 -
+2024-03-02 17:15:03,171 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:15:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-02 17:15:03,179 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:15:03] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-02 17:15:03,201 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:15:03] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-03-02 17:15:03,201 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:15:03] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-02 17:15:03,204 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:15:03] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-02 17:15:03,228 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:15:03] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-02 17:15:03,229 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:15:03] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-02 17:15:03,834 | INFO | 8208 | member.login() GET 진입
+2024-03-02 17:15:03,834 | INFO | 8208 | enter the login page
+2024-03-02 17:15:03,839 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:15:03] "GET /member/login HTTP/1.1" 200 -
+2024-03-02 17:15:03,855 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:15:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-02 17:15:03,861 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:15:03] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-02 17:15:03,862 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:15:03] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-02 17:15:03,863 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:15:03] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-02 17:15:03,877 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:15:03] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-02 17:15:03,878 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:15:03] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-02 17:21:58,913 | INFO | 8208 | member.login() POST 진입
+2024-03-02 17:21:58,914 | INFO | 8208 | member.selectMemberById() 진입
+2024-03-02 17:21:58,940 | INFO | 8208 | member.selectMemberById() 종료
+2024-03-02 17:21:58,941 | INFO | 8208 | login Success! Welcome, jang
+2024-03-02 17:21:58,941 | INFO | 8208 | member.login() 종료
+2024-03-02 17:21:58,943 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:21:58] "[32mPOST /member/login HTTP/1.1[0m" 302 -
+2024-03-02 17:21:58,949 | INFO | 8208 | bind.index() 진입
+2024-03-02 17:21:58,949 | INFO | 8208 | jang: blind_board_DAO.selectBoard()에 진입
+2024-03-02 17:21:58,954 | INFO | 8208 | jang: blind_board_DAO.selectBoard()종료
+2024-03-02 17:21:58,954 | INFO | 8208 | user jang enter index
+2024-03-02 17:21:58,955 | INFO | 8208 | bind.index() 종료
+2024-03-02 17:21:58,957 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:21:58] "GET /index HTTP/1.1" 200 -
+2024-03-02 17:21:59,002 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:21:59] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-02 17:21:59,003 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:21:59] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-02 17:21:59,003 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:21:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-02 17:21:59,005 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:21:59] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-03-02 17:21:59,008 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:21:59] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-02 17:21:59,011 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:21:59] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-02 17:21:59,026 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:21:59] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-02 17:22:03,796 | INFO | 8208 | myPage() 진입
+2024-03-02 17:22:03,797 | INFO | 8208 | User jang myPage 진입
+2024-03-02 17:22:03,797 | INFO | 8208 | myPage() 종료
+2024-03-02 17:22:03,802 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:03] "GET /member/mypage HTTP/1.1" 200 -
+2024-03-02 17:22:03,823 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-02 17:22:03,829 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:03] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:03,832 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:03] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:03,833 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:03] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-02 17:22:03,847 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:03] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:03,848 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:03] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-02 17:22:05,165 | INFO | 8208 | User jang member.myPageEdit() GET 진입
+2024-03-02 17:22:05,165 | INFO | 8208 | member.selectMemberByIdx() 진입
+2024-03-02 17:22:05,168 | INFO | 8208 | member.selectMemberByIdx() 종료
+2024-03-02 17:22:05,175 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:05] "GET /member/mypageEdit/1 HTTP/1.1" 200 -
+2024-03-02 17:22:05,197 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-02 17:22:05,206 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:05] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-02 17:22:05,208 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:05] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:05,209 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:05] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:05,227 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:05] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:05,228 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:05] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-02 17:22:10,297 | INFO | 8208 | member.passwordConditionCheck() 진입
+2024-03-02 17:22:10,298 | INFO | 8208 | member.passwordConditionChecker() 진입
+2024-03-02 17:22:10,298 | WARNING | 8208 | bad Password Condition
+2024-03-02 17:22:10,299 | INFO | 8208 | member.passwordConditionChecker() 종료
+2024-03-02 17:22:10,299 | INFO | 8208 | member.passwordConditionCheck() 종료
+2024-03-02 17:22:10,300 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:10] "POST /member/passwordConditionCheck HTTP/1.1" 200 -
+2024-03-02 17:22:14,422 | INFO | 8208 | member.passwordConditionCheck() 진입
+2024-03-02 17:22:14,423 | INFO | 8208 | member.passwordConditionChecker() 진입
+2024-03-02 17:22:14,423 | INFO | 8208 | Good Password Condition
+2024-03-02 17:22:14,423 | INFO | 8208 | member.passwordConditionChecker() 종료
+2024-03-02 17:22:14,424 | INFO | 8208 | member.passwordConditionCheck() 종료
+2024-03-02 17:22:14,424 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:14] "POST /member/passwordConditionCheck HTTP/1.1" 200 -
+2024-03-02 17:22:15,499 | INFO | 8208 | User jang member.myPageEdit() POST 진입
+2024-03-02 17:22:15,500 | INFO | 8208 | member.updateMember() 진입
+2024-03-02 17:22:15,506 | INFO | 8208 | member.updateMember() 종료
+2024-03-02 17:22:15,507 | INFO | 8208 | User jang update Complete
+2024-03-02 17:22:15,508 | INFO | 8208 | member.selectMemberById() 진입
+2024-03-02 17:22:15,537 | INFO | 8208 | member.selectMemberById() 종료
+2024-03-02 17:22:15,537 | DEBUG | 8208 | session Update
+2024-03-02 17:22:15,538 | INFO | 8208 | member.myPageEdit() 종료
+2024-03-02 17:22:15,539 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:15] "[32mPOST /member/mypageEdit/1 HTTP/1.1[0m" 302 -
+2024-03-02 17:22:15,544 | INFO | 8208 | bind.index() 진입
+2024-03-02 17:22:15,545 | INFO | 8208 | jang: blind_board_DAO.selectBoard()에 진입
+2024-03-02 17:22:15,566 | INFO | 8208 | jang: blind_board_DAO.selectBoard()종료
+2024-03-02 17:22:15,567 | INFO | 8208 | user jang enter index
+2024-03-02 17:22:15,568 | INFO | 8208 | bind.index() 종료
+2024-03-02 17:22:15,570 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:15] "GET /index HTTP/1.1" 200 -
+2024-03-02 17:22:15,606 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:15] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-02 17:22:15,607 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-02 17:22:15,609 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:15] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-03-02 17:22:15,615 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:15] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:15,630 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:15] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:15,630 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:15] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:15,634 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:15] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-02 17:22:17,115 | INFO | 8208 | member.logout() 진입
+2024-03-02 17:22:17,115 | INFO | 8208 | janglogout Success
+2024-03-02 17:22:17,116 | INFO | 8208 | member.logout() 종료
+2024-03-02 17:22:17,116 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:17] "[32mGET /member/logout HTTP/1.1[0m" 302 -
+2024-03-02 17:22:17,122 | INFO | 8208 | bind.index() 진입
+2024-03-02 17:22:17,141 | INFO | 8208 | guest: blind_board_DAO.selectBoard()종료
+2024-03-02 17:22:17,141 | INFO | 8208 | enter index
+2024-03-02 17:22:17,142 | INFO | 8208 | bind.index() 종료
+2024-03-02 17:22:17,143 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:17] "GET /index HTTP/1.1" 200 -
+2024-03-02 17:22:17,168 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-02 17:22:17,172 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:17] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-02 17:22:17,177 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:17] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-03-02 17:22:17,179 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:17] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:17,179 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:17] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:17,196 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:17] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:17,197 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:17] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-02 17:22:17,966 | INFO | 8208 | member.login() GET 진입
+2024-03-02 17:22:17,966 | INFO | 8208 | enter the login page
+2024-03-02 17:22:17,967 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:17] "GET /member/login HTTP/1.1" 200 -
+2024-03-02 17:22:17,987 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-02 17:22:17,993 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:17] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-02 17:22:17,996 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:17] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:17,997 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:17] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:18,010 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:18] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-02 17:22:18,012 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:18] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:21,308 | INFO | 8208 | member.login() POST 진입
+2024-03-02 17:22:21,309 | INFO | 8208 | member.selectMemberById() 진입
+2024-03-02 17:22:21,311 | INFO | 8208 | member.selectMemberById() 종료
+2024-03-02 17:22:21,312 | WARNING | 8208 | login pw Fail
+2024-03-02 17:22:21,312 | INFO | 8208 | member.login() 종료
+2024-03-02 17:22:21,316 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:21] "POST /member/login HTTP/1.1" 200 -
+2024-03-02 17:22:21,340 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:21] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-02 17:22:21,350 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:21] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-02 17:22:21,355 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:21] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:21,356 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:21] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:21,375 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:21] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-02 17:22:21,377 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:21] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:24,366 | INFO | 8208 | member.login() GET 진입
+2024-03-02 17:22:24,367 | INFO | 8208 | enter the login page
+2024-03-02 17:22:24,368 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:24] "GET /member/login HTTP/1.1" 200 -
+2024-03-02 17:22:24,382 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-02 17:22:24,392 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:24] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-02 17:22:24,396 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:24] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:24,396 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:24] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:24,409 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:24] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:24,409 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:24] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-02 17:22:28,063 | INFO | 8208 | member.login() POST 진입
+2024-03-02 17:22:28,063 | INFO | 8208 | member.selectMemberById() 진입
+2024-03-02 17:22:28,066 | INFO | 8208 | member.selectMemberById() 종료
+2024-03-02 17:22:28,066 | INFO | 8208 | login Success! Welcome, jang
+2024-03-02 17:22:28,066 | INFO | 8208 | member.login() 종료
+2024-03-02 17:22:28,067 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:28] "[32mPOST /member/login HTTP/1.1[0m" 302 -
+2024-03-02 17:22:28,071 | INFO | 8208 | bind.index() 진입
+2024-03-02 17:22:28,072 | INFO | 8208 | jang: blind_board_DAO.selectBoard()에 진입
+2024-03-02 17:22:28,099 | INFO | 8208 | jang: blind_board_DAO.selectBoard()종료
+2024-03-02 17:22:28,100 | INFO | 8208 | user jang enter index
+2024-03-02 17:22:28,100 | INFO | 8208 | bind.index() 종료
+2024-03-02 17:22:28,101 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:28] "GET /index HTTP/1.1" 200 -
+2024-03-02 17:22:28,142 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-02 17:22:28,143 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:28] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:28,143 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:28] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-03-02 17:22:28,143 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:28] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-02 17:22:28,144 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:28] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:28,146 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:28] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:28,163 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:28] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-02 17:22:31,413 | INFO | 8208 | jang: board.detail(9)에 진입
+2024-03-02 17:22:31,414 | INFO | 8208 | jang: blind_bloard_DAO.selectBoardByIdx(9)
+2024-03-02 17:22:31,429 | INFO | 8208 | jang: blind_board_DAO.selectBoardById()종료
+2024-03-02 17:22:31,430 | INFO | 8208 | jang: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-03-02 17:22:31,446 | INFO | 8208 | jang: blind_reply_DAO.selectReplyByIdx()에서 예외 발생((1146, "Table 'blind.reply' doesn't exist"))
+2024-03-02 17:22:31,447 | INFO | 8208 | jang: blind_reply_DAO.selectReplyByIdx()종료
+2024-03-02 17:22:31,447 | INFO | 8208 | jang: board.detail(9)종료
+2024-03-02 17:22:31,461 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:31] "GET /board/detail/9 HTTP/1.1" 200 -
+2024-03-02 17:22:31,480 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-02 17:22:31,490 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:31] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-02 17:22:31,490 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:31] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:31,491 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:31] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:31,506 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:31] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:31,507 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:31] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-02 17:22:34,809 | INFO | 8208 | jang: board.replyInsert(9)에 진입
+2024-03-02 17:22:34,810 | INFO | 8208 | jang: blind_reply_DAO.insertReply()에 진입
+2024-03-02 17:22:34,813 | INFO | 8208 | jang: blind_reply_DAO.insertReply()에서 예외 발생((1146, "Table 'blind.reply' doesn't exist"))
+2024-03-02 17:22:34,813 | INFO | 8208 | jang: blind_reply_DAO.insertReply()종료
+2024-03-02 17:22:34,814 | ERROR | 8208 | jang: board.relyInsert(9)에서 예외 발생(cannot access local variable 'result_num1' where it is not associated with a value)
+2024-03-02 17:22:34,814 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:34] "POST /board/detail/9 HTTP/1.1" 200 -
+2024-03-02 17:22:34,837 | INFO | 8208 | jang: board.detail(9)에 진입
+2024-03-02 17:22:34,837 | INFO | 8208 | jang: blind_bloard_DAO.selectBoardByIdx(9)
+2024-03-02 17:22:34,841 | INFO | 8208 | jang: blind_board_DAO.selectBoardById()종료
+2024-03-02 17:22:34,842 | INFO | 8208 | jang: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-03-02 17:22:34,859 | INFO | 8208 | jang: blind_reply_DAO.selectReplyByIdx()에서 예외 발생((1146, "Table 'blind.reply' doesn't exist"))
+2024-03-02 17:22:34,860 | INFO | 8208 | jang: blind_reply_DAO.selectReplyByIdx()종료
+2024-03-02 17:22:34,860 | INFO | 8208 | jang: board.detail(9)종료
+2024-03-02 17:22:34,862 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:34] "GET /board/detail/9 HTTP/1.1" 200 -
+2024-03-02 17:22:34,879 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-02 17:22:34,891 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:34] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-02 17:22:34,893 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:34] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:34,894 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:34] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:34,909 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:34] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-02 17:22:34,909 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:34] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:38,023 | INFO | 8208 | jang: board.replyInsert(9)에 진입
+2024-03-02 17:22:38,024 | INFO | 8208 | jang: blind_reply_DAO.insertReply()에 진입
+2024-03-02 17:22:38,027 | INFO | 8208 | jang: blind_reply_DAO.insertReply()에서 예외 발생((1146, "Table 'blind.reply' doesn't exist"))
+2024-03-02 17:22:38,027 | INFO | 8208 | jang: blind_reply_DAO.insertReply()종료
+2024-03-02 17:22:38,028 | ERROR | 8208 | jang: board.relyInsert(9)에서 예외 발생(cannot access local variable 'result_num1' where it is not associated with a value)
+2024-03-02 17:22:38,029 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:38] "POST /board/detail/9 HTTP/1.1" 200 -
+2024-03-02 17:22:38,046 | INFO | 8208 | jang: board.detail(9)에 진입
+2024-03-02 17:22:38,047 | INFO | 8208 | jang: blind_bloard_DAO.selectBoardByIdx(9)
+2024-03-02 17:22:38,077 | INFO | 8208 | jang: blind_board_DAO.selectBoardById()종료
+2024-03-02 17:22:38,078 | INFO | 8208 | jang: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-03-02 17:22:38,081 | INFO | 8208 | jang: blind_reply_DAO.selectReplyByIdx()에서 예외 발생((1146, "Table 'blind.reply' doesn't exist"))
+2024-03-02 17:22:38,082 | INFO | 8208 | jang: blind_reply_DAO.selectReplyByIdx()종료
+2024-03-02 17:22:38,083 | INFO | 8208 | jang: board.detail(9)종료
+2024-03-02 17:22:38,086 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:38] "GET /board/detail/9 HTTP/1.1" 200 -
+2024-03-02 17:22:38,105 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-02 17:22:38,110 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:38] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-02 17:22:38,113 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:38] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:38,116 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:38] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:38,136 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:38] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:38,138 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:38] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-02 17:22:39,171 | INFO | 8208 | jang: board.detail(9)에 진입
+2024-03-02 17:22:39,172 | INFO | 8208 | jang: blind_bloard_DAO.selectBoardByIdx(9)
+2024-03-02 17:22:39,175 | INFO | 8208 | jang: blind_board_DAO.selectBoardById()종료
+2024-03-02 17:22:39,176 | INFO | 8208 | jang: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-03-02 17:22:39,201 | INFO | 8208 | jang: blind_reply_DAO.selectReplyByIdx()에서 예외 발생((1146, "Table 'blind.reply' doesn't exist"))
+2024-03-02 17:22:39,201 | INFO | 8208 | jang: blind_reply_DAO.selectReplyByIdx()종료
+2024-03-02 17:22:39,202 | INFO | 8208 | jang: board.detail(9)종료
+2024-03-02 17:22:39,204 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:39] "GET /board/detail/9 HTTP/1.1" 200 -
+2024-03-02 17:22:39,223 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-02 17:22:39,229 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:39] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-02 17:22:39,234 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:39] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:39,236 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:39] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:39,247 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:39] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:39,248 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:39] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-02 17:22:39,818 | INFO | 8208 | jang: board.detail(9)에 진입
+2024-03-02 17:22:39,819 | INFO | 8208 | jang: blind_bloard_DAO.selectBoardByIdx(9)
+2024-03-02 17:22:39,822 | INFO | 8208 | jang: blind_board_DAO.selectBoardById()종료
+2024-03-02 17:22:39,822 | INFO | 8208 | jang: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-03-02 17:22:39,847 | INFO | 8208 | jang: blind_reply_DAO.selectReplyByIdx()에서 예외 발생((1146, "Table 'blind.reply' doesn't exist"))
+2024-03-02 17:22:39,847 | INFO | 8208 | jang: blind_reply_DAO.selectReplyByIdx()종료
+2024-03-02 17:22:39,848 | INFO | 8208 | jang: board.detail(9)종료
+2024-03-02 17:22:39,850 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:39] "GET /board/detail/9 HTTP/1.1" 200 -
+2024-03-02 17:22:39,866 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-02 17:22:39,873 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:39] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-02 17:22:39,873 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:39] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:39,875 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:39] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:39,896 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:39] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-02 17:22:39,897 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:39] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:58,367 | INFO | 8208 | jang: GET으로 board.edit(9)에 진입
+2024-03-02 17:22:58,368 | INFO | 8208 | jang: blind_bloard_DAO.selectBoardByIdx(9)
+2024-03-02 17:22:58,392 | INFO | 8208 | jang: blind_board_DAO.selectBoardById()종료
+2024-03-02 17:22:58,398 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:58] "GET /board/edit/9 HTTP/1.1" 200 -
+2024-03-02 17:22:58,415 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-02 17:22:58,433 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:58] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:58,434 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:58] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-02 17:22:58,435 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:58] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:58,447 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:58] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-02 17:22:58,449 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:22:58] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-02 17:23:00,691 | INFO | 8208 | jang: POST로 board.edit9에 진입
+2024-03-02 17:23:00,692 | INFO | 8208 | jang: blind_board_DAO.updateBoard()에 진입
+2024-03-02 17:23:00,697 | INFO | 8208 | jang: blind_board_DAO.updateBoard()종료
+2024-03-02 17:23:00,698 | INFO | 8208 | jang: board.edit(9)종료
+2024-03-02 17:23:00,699 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:00] "[32mPOST /board/edit/9 HTTP/1.1[0m" 302 -
+2024-03-02 17:23:00,702 | INFO | 8208 | bind.index() 진입
+2024-03-02 17:23:00,703 | INFO | 8208 | jang: blind_board_DAO.selectBoard()에 진입
+2024-03-02 17:23:00,709 | INFO | 8208 | jang: blind_board_DAO.selectBoard()종료
+2024-03-02 17:23:00,710 | INFO | 8208 | user jang enter index
+2024-03-02 17:23:00,711 | INFO | 8208 | bind.index() 종료
+2024-03-02 17:23:00,712 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:00] "GET /index HTTP/1.1" 200 -
+2024-03-02 17:23:00,747 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:00] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-02 17:23:00,756 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:00] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-02 17:23:00,761 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:00] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-02 17:23:00,762 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:00] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-02 17:23:00,764 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:00] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-03-02 17:23:00,774 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:00] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-02 17:23:00,774 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:00] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-02 17:23:01,820 | INFO | 8208 | jang: board.detail(9)에 진입
+2024-03-02 17:23:01,820 | INFO | 8208 | jang: blind_bloard_DAO.selectBoardByIdx(9)
+2024-03-02 17:23:01,848 | INFO | 8208 | jang: blind_board_DAO.selectBoardById()종료
+2024-03-02 17:23:01,849 | INFO | 8208 | jang: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-03-02 17:23:01,865 | INFO | 8208 | jang: blind_reply_DAO.selectReplyByIdx()에서 예외 발생((1146, "Table 'blind.reply' doesn't exist"))
+2024-03-02 17:23:01,865 | INFO | 8208 | jang: blind_reply_DAO.selectReplyByIdx()종료
+2024-03-02 17:23:01,866 | INFO | 8208 | jang: board.detail(9)종료
+2024-03-02 17:23:01,867 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:01] "GET /board/detail/9 HTTP/1.1" 200 -
+2024-03-02 17:23:01,882 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-02 17:23:01,892 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:01] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-02 17:23:01,894 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:01] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-02 17:23:01,894 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:01] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-02 17:23:01,906 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:01] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-02 17:23:01,907 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:01] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-02 17:23:03,736 | INFO | 8208 | jang: board.replyInsert(9)에 진입
+2024-03-02 17:23:03,737 | INFO | 8208 | jang: blind_reply_DAO.insertReply()에 진입
+2024-03-02 17:23:03,764 | INFO | 8208 | jang: blind_reply_DAO.insertReply()에서 예외 발생((1146, "Table 'blind.reply' doesn't exist"))
+2024-03-02 17:23:03,765 | INFO | 8208 | jang: blind_reply_DAO.insertReply()종료
+2024-03-02 17:23:03,766 | ERROR | 8208 | jang: board.relyInsert(9)에서 예외 발생(cannot access local variable 'result_num1' where it is not associated with a value)
+2024-03-02 17:23:03,767 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:03] "POST /board/detail/9 HTTP/1.1" 200 -
+2024-03-02 17:23:03,781 | INFO | 8208 | jang: board.detail(9)에 진입
+2024-03-02 17:23:03,782 | INFO | 8208 | jang: blind_bloard_DAO.selectBoardByIdx(9)
+2024-03-02 17:23:03,809 | INFO | 8208 | jang: blind_board_DAO.selectBoardById()종료
+2024-03-02 17:23:03,810 | INFO | 8208 | jang: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-03-02 17:23:03,827 | INFO | 8208 | jang: blind_reply_DAO.selectReplyByIdx()에서 예외 발생((1146, "Table 'blind.reply' doesn't exist"))
+2024-03-02 17:23:03,828 | INFO | 8208 | jang: blind_reply_DAO.selectReplyByIdx()종료
+2024-03-02 17:23:03,829 | INFO | 8208 | jang: board.detail(9)종료
+2024-03-02 17:23:03,831 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:03] "GET /board/detail/9 HTTP/1.1" 200 -
+2024-03-02 17:23:03,847 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-02 17:23:03,862 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:03] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-02 17:23:03,862 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:03] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-02 17:23:03,866 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:03] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-02 17:23:03,879 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:03] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-02 17:23:03,880 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:03] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-02 17:23:05,758 | INFO | 8208 | bind.index() 진입
+2024-03-02 17:23:05,759 | INFO | 8208 | jang: blind_board_DAO.selectBoard()에 진입
+2024-03-02 17:23:05,762 | INFO | 8208 | jang: blind_board_DAO.selectBoard()종료
+2024-03-02 17:23:05,762 | INFO | 8208 | user jang enter index
+2024-03-02 17:23:05,763 | INFO | 8208 | bind.index() 종료
+2024-03-02 17:23:05,765 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:05] "GET /index HTTP/1.1" 200 -
+2024-03-02 17:23:05,788 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-02 17:23:05,796 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:05] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-02 17:23:05,796 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:05] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-03-02 17:23:05,804 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:05] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-02 17:23:05,808 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:05] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-02 17:23:05,816 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:05] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-02 17:23:05,816 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:05] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-02 17:23:06,711 | INFO | 8208 | jang: board.detail(8)에 진입
+2024-03-02 17:23:06,711 | INFO | 8208 | jang: blind_bloard_DAO.selectBoardByIdx(8)
+2024-03-02 17:23:06,714 | INFO | 8208 | jang: blind_board_DAO.selectBoardById()종료
+2024-03-02 17:23:06,714 | INFO | 8208 | jang: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-03-02 17:23:06,735 | INFO | 8208 | jang: blind_reply_DAO.selectReplyByIdx()에서 예외 발생((1146, "Table 'blind.reply' doesn't exist"))
+2024-03-02 17:23:06,735 | INFO | 8208 | jang: blind_reply_DAO.selectReplyByIdx()종료
+2024-03-02 17:23:06,736 | INFO | 8208 | jang: board.detail(8)종료
+2024-03-02 17:23:06,737 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:06] "GET /board/detail/8 HTTP/1.1" 200 -
+2024-03-02 17:23:06,749 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-02 17:23:06,758 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:06] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-02 17:23:06,760 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:06] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-02 17:23:06,761 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:06] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-02 17:23:06,775 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:06] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-02 17:23:06,776 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:06] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-02 17:23:08,266 | INFO | 8208 | jang: board.replyInsert(8)에 진입
+2024-03-02 17:23:08,266 | INFO | 8208 | jang: blind_reply_DAO.insertReply()에 진입
+2024-03-02 17:23:08,269 | INFO | 8208 | jang: blind_reply_DAO.insertReply()에서 예외 발생((1146, "Table 'blind.reply' doesn't exist"))
+2024-03-02 17:23:08,269 | INFO | 8208 | jang: blind_reply_DAO.insertReply()종료
+2024-03-02 17:23:08,270 | ERROR | 8208 | jang: board.relyInsert(8)에서 예외 발생(cannot access local variable 'result_num1' where it is not associated with a value)
+2024-03-02 17:23:08,271 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:08] "POST /board/detail/8 HTTP/1.1" 200 -
+2024-03-02 17:23:08,291 | INFO | 8208 | jang: board.detail(8)에 진입
+2024-03-02 17:23:08,291 | INFO | 8208 | jang: blind_bloard_DAO.selectBoardByIdx(8)
+2024-03-02 17:23:08,295 | INFO | 8208 | jang: blind_board_DAO.selectBoardById()종료
+2024-03-02 17:23:08,296 | INFO | 8208 | jang: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-03-02 17:23:08,315 | INFO | 8208 | jang: blind_reply_DAO.selectReplyByIdx()에서 예외 발생((1146, "Table 'blind.reply' doesn't exist"))
+2024-03-02 17:23:08,316 | INFO | 8208 | jang: blind_reply_DAO.selectReplyByIdx()종료
+2024-03-02 17:23:08,316 | INFO | 8208 | jang: board.detail(8)종료
+2024-03-02 17:23:08,318 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:08] "GET /board/detail/8 HTTP/1.1" 200 -
+2024-03-02 17:23:08,332 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:08] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-02 17:23:08,337 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:08] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-02 17:23:08,339 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:08] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-02 17:23:08,339 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:08] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-02 17:23:08,360 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:08] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-02 17:23:08,360 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:08] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-02 17:23:10,118 | INFO | 8208 | bind.index() 진입
+2024-03-02 17:23:10,118 | INFO | 8208 | jang: blind_board_DAO.selectBoard()에 진입
+2024-03-02 17:23:10,144 | INFO | 8208 | jang: blind_board_DAO.selectBoard()종료
+2024-03-02 17:23:10,144 | INFO | 8208 | user jang enter index
+2024-03-02 17:23:10,145 | INFO | 8208 | bind.index() 종료
+2024-03-02 17:23:10,146 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:10] "GET /index HTTP/1.1" 200 -
+2024-03-02 17:23:10,165 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:10] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-02 17:23:10,178 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:10] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-03-02 17:23:10,179 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:10] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-02 17:23:10,181 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:10] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-02 17:23:10,181 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:10] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-02 17:23:10,199 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:10] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-02 17:23:10,200 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:23:10] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-02 17:25:48,391 | INFO | 8208 | bind.index() 진입
+2024-03-02 17:25:48,391 | INFO | 8208 | jang: blind_board_DAO.selectBoard()에 진입
+2024-03-02 17:25:48,394 | INFO | 8208 | jang: blind_board_DAO.selectBoard()종료
+2024-03-02 17:25:48,395 | INFO | 8208 | user jang enter index
+2024-03-02 17:25:48,395 | INFO | 8208 | bind.index() 종료
+2024-03-02 17:25:48,396 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:25:48] "GET /index HTTP/1.1" 200 -
+2024-03-02 17:25:48,416 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:25:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-02 17:25:48,419 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:25:48] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-02 17:25:48,424 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:25:48] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-02 17:25:48,425 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:25:48] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-03-02 17:25:48,428 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:25:48] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-02 17:25:48,439 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:25:48] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-02 17:25:48,442 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:25:48] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-02 17:25:49,862 | INFO | 8208 | jang: board.detail(1)에 진입
+2024-03-02 17:25:49,863 | INFO | 8208 | jang: blind_bloard_DAO.selectBoardByIdx(1)
+2024-03-02 17:25:49,865 | INFO | 8208 | jang: blind_board_DAO.selectBoardById()종료
+2024-03-02 17:25:49,865 | INFO | 8208 | jang: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-03-02 17:25:49,868 | INFO | 8208 | jang: blind_reply_DAO.selectReplyByIdx()종료
+2024-03-02 17:25:49,869 | INFO | 8208 | jang: board.detail(1)종료
+2024-03-02 17:25:49,870 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:25:49] "GET /board/detail/1 HTTP/1.1" 200 -
+2024-03-02 17:25:49,881 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:25:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-02 17:25:49,888 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:25:49] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-02 17:25:49,892 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:25:49] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-02 17:25:49,893 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:25:49] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-02 17:25:49,902 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:25:49] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-02 17:25:49,903 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:25:49] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-02 17:25:54,438 | INFO | 8208 | jang: board.replyInsert(1)에 진입
+2024-03-02 17:25:54,438 | INFO | 8208 | jang: blind_reply_DAO.insertReply()에 진입
+2024-03-02 17:25:54,443 | INFO | 8208 | jang: blind_reply_DAO.insertReply()종료
+2024-03-02 17:25:54,444 | INFO | 8208 | jang: board.replyInsert(1)종료
+2024-03-02 17:25:54,445 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:25:54] "POST /board/detail/1 HTTP/1.1" 200 -
+2024-03-02 17:25:54,466 | INFO | 8208 | jang: board.detail(1)에 진입
+2024-03-02 17:25:54,466 | INFO | 8208 | jang: blind_bloard_DAO.selectBoardByIdx(1)
+2024-03-02 17:25:54,489 | INFO | 8208 | jang: blind_board_DAO.selectBoardById()종료
+2024-03-02 17:25:54,490 | INFO | 8208 | jang: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-03-02 17:25:54,504 | INFO | 8208 | jang: blind_reply_DAO.selectReplyByIdx()종료
+2024-03-02 17:25:54,504 | INFO | 8208 | jang: board.detail(1)종료
+2024-03-02 17:25:54,506 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:25:54] "GET /board/detail/1 HTTP/1.1" 200 -
+2024-03-02 17:25:54,521 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:25:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-02 17:25:54,524 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:25:54] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-02 17:25:54,524 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:25:54] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-02 17:25:54,525 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:25:54] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-02 17:25:54,535 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:25:54] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-02 17:25:54,536 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:25:54] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-02 17:25:57,413 | INFO | 8208 | bind.index() 진입
+2024-03-02 17:25:57,413 | INFO | 8208 | jang: blind_board_DAO.selectBoard()에 진입
+2024-03-02 17:25:57,417 | INFO | 8208 | jang: blind_board_DAO.selectBoard()종료
+2024-03-02 17:25:57,419 | INFO | 8208 | user jang enter index
+2024-03-02 17:25:57,420 | INFO | 8208 | bind.index() 종료
+2024-03-02 17:25:57,421 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:25:57] "GET /index HTTP/1.1" 200 -
+2024-03-02 17:25:57,438 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:25:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-02 17:25:57,445 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:25:57] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-02 17:25:57,445 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:25:57] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-02 17:25:57,446 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:25:57] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-02 17:25:57,446 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:25:57] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-03-02 17:25:57,461 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:25:57] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-02 17:25:57,461 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 17:25:57] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-02 19:00:16,148 | INFO | 8208 | bind.index() 진입
+2024-03-02 19:00:16,151 | INFO | 8208 | jang: blind_board_DAO.selectBoard()에 진입
+2024-03-02 19:00:16,161 | INFO | 8208 | jang: blind_board_DAO.selectBoard()종료
+2024-03-02 19:00:16,161 | INFO | 8208 | user jang enter index
+2024-03-02 19:00:16,162 | INFO | 8208 | bind.index() 종료
+2024-03-02 19:00:16,167 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 19:00:16] "GET /index HTTP/1.1" 200 -
+2024-03-02 19:00:16,181 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 19:00:16] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-02 19:00:16,189 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 19:00:16] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-02 19:00:16,191 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 19:00:16] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-02 19:00:16,191 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 19:00:16] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-02 19:00:16,194 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 19:00:16] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-03-02 19:00:16,201 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 19:00:16] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-02 19:00:16,203 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 19:00:16] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-02 19:00:17,379 | INFO | 8208 | bind.index() 진입
+2024-03-02 19:00:17,380 | INFO | 8208 | jang: blind_board_DAO.selectBoard()에 진입
+2024-03-02 19:00:17,405 | INFO | 8208 | jang: blind_board_DAO.selectBoard()종료
+2024-03-02 19:00:17,405 | INFO | 8208 | user jang enter index
+2024-03-02 19:00:17,406 | INFO | 8208 | bind.index() 종료
+2024-03-02 19:00:17,407 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 19:00:17] "GET /index HTTP/1.1" 200 -
+2024-03-02 19:00:17,417 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 19:00:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-02 19:00:17,422 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 19:00:17] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-03-02 19:00:17,423 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 19:00:17] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-02 19:00:17,425 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 19:00:17] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-02 19:00:17,426 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 19:00:17] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-02 19:00:17,439 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 19:00:17] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-02 19:00:17,441 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 19:00:17] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-02 19:00:18,073 | INFO | 8208 | jang: board.detail(1)에 진입
+2024-03-02 19:00:18,074 | INFO | 8208 | jang: blind_bloard_DAO.selectBoardByIdx(1)
+2024-03-02 19:00:18,097 | INFO | 8208 | jang: blind_board_DAO.selectBoardById()종료
+2024-03-02 19:00:18,098 | INFO | 8208 | jang: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-03-02 19:00:18,100 | INFO | 8208 | jang: blind_reply_DAO.selectReplyByIdx()종료
+2024-03-02 19:00:18,101 | INFO | 8208 | jang: board.detail(1)종료
+2024-03-02 19:00:18,102 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 19:00:18] "GET /board/detail/1 HTTP/1.1" 200 -
+2024-03-02 19:00:18,115 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 19:00:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-02 19:00:18,118 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 19:00:18] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-02 19:00:18,121 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 19:00:18] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-02 19:00:18,123 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 19:00:18] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-02 19:00:18,134 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 19:00:18] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-02 19:00:18,134 | INFO | 8208 | 127.0.0.1 - - [02/Mar/2024 19:00:18] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-02 19:48:42,510 | INFO | 8208 |  * Detected change in 'c:\\Users\\jaeyeong\\Desktop\\blind_project\\blind_board_DAO.py', reloading
+2024-03-02 19:48:42,581 | INFO | 23336 |  * Restarting with stat
+2024-03-02 19:48:42,991 | WARNING | 16112 |  * Debugger is active!
+2024-03-02 19:48:43,002 | INFO | 16112 |  * Debugger PIN: 106-142-433
+2024-03-02 19:48:49,037 | INFO | 16112 |  * Detected change in 'c:\\Users\\jaeyeong\\Desktop\\blind_project\\blind_member_DAO.py', reloading
+2024-03-02 19:48:49,088 | INFO | 23336 |  * Restarting with stat
+2024-03-02 19:48:49,507 | WARNING | 22644 |  * Debugger is active!
+2024-03-02 19:48:49,518 | INFO | 22644 |  * Debugger PIN: 106-142-433
+2024-03-02 19:48:52,544 | INFO | 22644 |  * Detected change in 'c:\\Users\\jaeyeong\\Desktop\\blind_project\\blind_reply_DAO.py', reloading
+2024-03-02 19:48:52,573 | INFO | 23336 |  * Restarting with stat
+2024-03-02 19:48:52,934 | WARNING | 4880 |  * Debugger is active!
+2024-03-02 19:48:52,943 | INFO | 4880 |  * Debugger PIN: 106-142-433
+2024-03-02 22:23:57,757 | INFO | 4880 |  * Detected change in 'c:\\Users\\jaeyeong\\Desktop\\blind_project\\blind_board_DAO.py', reloading
+2024-03-02 22:23:57,828 | INFO | 23336 |  * Restarting with stat
+2024-03-02 22:23:58,337 | WARNING | 6672 |  * Debugger is active!
+2024-03-02 22:23:58,348 | INFO | 6672 |  * Debugger PIN: 106-142-433
+2024-03-02 22:23:59,372 | INFO | 6672 |  * Detected change in 'c:\\Users\\jaeyeong\\Desktop\\blind_project\\blind_member_DAO.py', reloading
+2024-03-02 22:23:59,425 | INFO | 23336 |  * Restarting with stat
+2024-03-02 22:23:59,866 | WARNING | 19228 |  * Debugger is active!
+2024-03-02 22:23:59,876 | INFO | 19228 |  * Debugger PIN: 106-142-433
+2024-03-02 22:24:01,899 | INFO | 19228 |  * Detected change in 'c:\\Users\\jaeyeong\\Desktop\\blind_project\\blind_reply_DAO.py', reloading
+2024-03-02 22:24:01,941 | INFO | 23336 |  * Restarting with stat
+2024-03-02 22:24:02,326 | WARNING | 25784 |  * Debugger is active!
+2024-03-02 22:24:02,338 | INFO | 25784 |  * Debugger PIN: 106-142-433
+2024-03-03 00:02:58,156 | INFO | 25784 | jang: blind_board_DAO.selectBoard()에 진입
+2024-03-03 00:02:58,448 | INFO | 25784 | jang: blind_board_DAO.selectBoard()종료
+2024-03-03 00:02:58,448 | INFO | 25784 | Welcome to the BLIND
+2024-03-03 00:02:58,466 | INFO | 25784 | 127.0.0.1 - - [03/Mar/2024 00:02:58] "GET / HTTP/1.1" 200 -
+2024-03-03 00:02:58,622 | INFO | 25784 | 127.0.0.1 - - [03/Mar/2024 00:02:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-03 00:02:58,630 | INFO | 25784 | 127.0.0.1 - - [03/Mar/2024 00:02:58] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-03-03 00:02:58,631 | INFO | 25784 | 127.0.0.1 - - [03/Mar/2024 00:02:58] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-03 00:02:58,635 | INFO | 25784 | 127.0.0.1 - - [03/Mar/2024 00:02:58] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-03 00:02:58,635 | INFO | 25784 | 127.0.0.1 - - [03/Mar/2024 00:02:58] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-03 00:02:58,646 | INFO | 25784 | 127.0.0.1 - - [03/Mar/2024 00:02:58] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-03 00:02:58,666 | INFO | 25784 | 127.0.0.1 - - [03/Mar/2024 00:02:58] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-03 00:05:40,407 | INFO | 25784 | jang: blind_board_DAO.selectBoard()에 진입
+2024-03-03 00:05:40,704 | INFO | 25784 | jang: blind_board_DAO.selectBoard()종료
+2024-03-03 00:05:40,704 | INFO | 25784 | Welcome to the BLIND
+2024-03-03 00:05:40,705 | INFO | 25784 | 127.0.0.1 - - [03/Mar/2024 00:05:40] "GET / HTTP/1.1" 200 -
+2024-03-03 00:05:40,721 | INFO | 25784 | 127.0.0.1 - - [03/Mar/2024 00:05:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-03 00:05:40,728 | INFO | 25784 | 127.0.0.1 - - [03/Mar/2024 00:05:40] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-03 00:05:40,731 | INFO | 25784 | 127.0.0.1 - - [03/Mar/2024 00:05:40] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-03-03 00:05:40,732 | INFO | 25784 | 127.0.0.1 - - [03/Mar/2024 00:05:40] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-03 00:05:40,733 | INFO | 25784 | 127.0.0.1 - - [03/Mar/2024 00:05:40] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-03 00:05:40,740 | INFO | 25784 | 127.0.0.1 - - [03/Mar/2024 00:05:40] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-03 00:05:40,746 | INFO | 25784 | 127.0.0.1 - - [03/Mar/2024 00:05:40] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-03 00:05:47,227 | INFO | 25784 | jang: board.detail(8)에 진입
+2024-03-03 00:05:47,228 | INFO | 25784 | jang: blind_bloard_DAO.selectBoardByIdx(8)
+2024-03-03 00:05:47,521 | INFO | 25784 | jang: blind_board_DAO.selectBoardById()종료
+2024-03-03 00:05:47,521 | INFO | 25784 | jang: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-03-03 00:05:47,733 | INFO | 25784 | jang: blind_reply_DAO.selectReplyByIdx()종료
+2024-03-03 00:05:47,733 | INFO | 25784 | jang: board.detail(8)종료
+2024-03-03 00:05:47,742 | INFO | 25784 | 127.0.0.1 - - [03/Mar/2024 00:05:47] "GET /board/detail/8 HTTP/1.1" 200 -
+2024-03-03 00:05:47,756 | INFO | 25784 | 127.0.0.1 - - [03/Mar/2024 00:05:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-03 00:05:47,760 | INFO | 25784 | 127.0.0.1 - - [03/Mar/2024 00:05:47] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-03 00:05:47,760 | INFO | 25784 | 127.0.0.1 - - [03/Mar/2024 00:05:47] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-03 00:05:47,763 | INFO | 25784 | 127.0.0.1 - - [03/Mar/2024 00:05:47] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-03 00:05:47,766 | INFO | 25784 | 127.0.0.1 - - [03/Mar/2024 00:05:47] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-03 00:05:47,776 | INFO | 25784 | 127.0.0.1 - - [03/Mar/2024 00:05:47] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-03 00:07:55,760 | INFO | 25784 |  * Detected change in 'c:\\Users\\jaeyeong\\Desktop\\blind_project\\blind.py', reloading
+2024-03-03 00:07:55,811 | INFO | 23336 |  * Restarting with stat
+2024-03-03 00:08:15,508 | INFO | 24488 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.219.194:5000
+2024-03-03 00:08:15,509 | INFO | 24488 | [33mPress CTRL+C to quit[0m
+2024-03-03 00:08:15,513 | INFO | 24488 |  * Restarting with stat
+2024-03-03 00:08:16,002 | WARNING | 26824 |  * Debugger is active!
+2024-03-03 00:08:16,013 | INFO | 26824 |  * Debugger PIN: 106-142-433
+2024-03-03 00:26:01,341 | INFO | 26824 | member.login() GET 진입
+2024-03-03 00:26:01,342 | INFO | 26824 | enter the login page
+2024-03-03 00:26:01,383 | INFO | 26824 | 127.0.0.1 - - [03/Mar/2024 00:26:01] "GET /member/login HTTP/1.1" 200 -
+2024-03-03 00:26:01,555 | INFO | 26824 | 127.0.0.1 - - [03/Mar/2024 00:26:01] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-03 00:26:01,578 | INFO | 26824 | 127.0.0.1 - - [03/Mar/2024 00:26:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-03 00:26:01,579 | INFO | 26824 | 127.0.0.1 - - [03/Mar/2024 00:26:01] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-03 00:26:01,580 | INFO | 26824 | 127.0.0.1 - - [03/Mar/2024 00:26:01] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-03 00:26:01,586 | INFO | 26824 | 127.0.0.1 - - [03/Mar/2024 00:26:01] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-03 00:26:01,588 | INFO | 26824 | 127.0.0.1 - - [03/Mar/2024 00:26:01] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-03 00:35:38,005 | INFO | 26824 |  * Detected change in 'c:\\Users\\jaeyeong\\Desktop\\blind_project\\blind.py', reloading
+2024-03-03 00:35:38,044 | INFO | 24488 |  * Restarting with stat
+2024-03-03 15:11:17,114 | INFO | 7836 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.219.194:5000
+2024-03-03 15:11:17,115 | INFO | 7836 | [33mPress CTRL+C to quit[0m
+2024-03-03 15:11:17,122 | INFO | 7836 |  * Restarting with stat
+2024-03-03 15:11:17,583 | WARNING | 18988 |  * Debugger is active!
+2024-03-03 15:11:17,594 | INFO | 18988 |  * Debugger PIN: 106-142-433
+2024-03-03 15:11:23,892 | INFO | 18988 | guest: blind_board_DAO.selectBoard()종료
+2024-03-03 15:11:23,894 | INFO | 18988 | Welcome to the BLIND
+2024-03-03 15:11:23,911 | INFO | 18988 | 127.0.0.1 - - [03/Mar/2024 15:11:23] "GET / HTTP/1.1" 200 -
+2024-03-03 15:11:24,084 | INFO | 18988 | 127.0.0.1 - - [03/Mar/2024 15:11:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-03 15:11:24,148 | INFO | 18988 | 127.0.0.1 - - [03/Mar/2024 15:11:24] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-03-03 15:11:24,154 | INFO | 18988 | 127.0.0.1 - - [03/Mar/2024 15:11:24] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-03 15:11:24,154 | INFO | 18988 | 127.0.0.1 - - [03/Mar/2024 15:11:24] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-03 15:11:24,157 | INFO | 18988 | 127.0.0.1 - - [03/Mar/2024 15:11:24] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-03 15:11:24,179 | INFO | 18988 | 127.0.0.1 - - [03/Mar/2024 15:11:24] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-03 15:11:24,233 | INFO | 18988 | 127.0.0.1 - - [03/Mar/2024 15:11:24] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-03 15:11:24,466 | INFO | 18988 | 127.0.0.1 - - [03/Mar/2024 15:11:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-03-03 15:11:27,060 | INFO | 18988 | guest: board.detail(8)에 진입
+2024-03-03 15:11:27,060 | INFO | 18988 | guest: blind_bloard_DAO.selectBoardByIdx(8)
+2024-03-03 15:11:27,255 | INFO | 18988 | guest: blind_board_DAO.selectBoardById()종료
+2024-03-03 15:11:27,256 | INFO | 18988 | guest: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-03-03 15:11:27,460 | INFO | 18988 | guest: blind_reply_DAO.selectReplyByIdx()종료
+2024-03-03 15:11:27,461 | INFO | 18988 | guest: board.detail(8)종료
+2024-03-03 15:11:27,476 | INFO | 18988 | 127.0.0.1 - - [03/Mar/2024 15:11:27] "GET /board/detail/8 HTTP/1.1" 200 -
+2024-03-03 15:11:27,489 | INFO | 18988 | 127.0.0.1 - - [03/Mar/2024 15:11:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-03 15:11:27,497 | INFO | 18988 | 127.0.0.1 - - [03/Mar/2024 15:11:27] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-03 15:11:27,499 | INFO | 18988 | 127.0.0.1 - - [03/Mar/2024 15:11:27] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-03 15:11:27,508 | INFO | 18988 | 127.0.0.1 - - [03/Mar/2024 15:11:27] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-03 15:11:27,520 | INFO | 18988 | 127.0.0.1 - - [03/Mar/2024 15:11:27] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-03 15:11:27,525 | INFO | 18988 | 127.0.0.1 - - [03/Mar/2024 15:11:27] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-03 16:13:15,686 | INFO | 18988 |  * Detected change in 'c:\\Users\\jaeyeong\\Desktop\\blind_project\\board.py', reloading
+2024-03-03 16:13:15,763 | INFO | 7836 |  * Restarting with stat
+2024-03-03 16:15:06,849 | INFO | 24232 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.219.194:5000
+2024-03-03 16:15:06,850 | INFO | 24232 | [33mPress CTRL+C to quit[0m
+2024-03-03 16:15:06,856 | INFO | 24232 |  * Restarting with stat
+2024-03-03 16:15:07,341 | WARNING | 12404 |  * Debugger is active!
+2024-03-03 16:15:07,351 | INFO | 12404 |  * Debugger PIN: 106-142-433
+2024-03-03 16:15:07,940 | INFO | 12404 | guest: blind_board_DAO.selectBoard()종료
+2024-03-03 16:15:07,941 | INFO | 12404 | Welcome to the BLIND
+2024-03-03 16:15:07,955 | INFO | 12404 | 127.0.0.1 - - [03/Mar/2024 16:15:07] "GET / HTTP/1.1" 200 -
+2024-03-03 16:15:08,163 | INFO | 12404 | 127.0.0.1 - - [03/Mar/2024 16:15:08] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-03 16:15:08,189 | INFO | 12404 | 127.0.0.1 - - [03/Mar/2024 16:15:08] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-03 16:15:08,196 | INFO | 12404 | 127.0.0.1 - - [03/Mar/2024 16:15:08] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-03 16:15:08,199 | INFO | 12404 | 127.0.0.1 - - [03/Mar/2024 16:15:08] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-03 16:15:08,202 | INFO | 12404 | 127.0.0.1 - - [03/Mar/2024 16:15:08] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-03-03 16:15:08,204 | INFO | 12404 | 127.0.0.1 - - [03/Mar/2024 16:15:08] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-03 16:15:08,220 | INFO | 12404 | 127.0.0.1 - - [03/Mar/2024 16:15:08] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-03 16:15:08,226 | INFO | 12404 | guest: blind_board_DAO.selectBoard()종료
+2024-03-03 16:15:08,227 | INFO | 12404 | Welcome to the BLIND
+2024-03-03 16:15:08,229 | INFO | 12404 | 127.0.0.1 - - [03/Mar/2024 16:15:08] "GET / HTTP/1.1" 200 -
+2024-03-03 16:15:08,320 | INFO | 12404 | 127.0.0.1 - - [03/Mar/2024 16:15:08] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-03 16:15:08,324 | INFO | 12404 | 127.0.0.1 - - [03/Mar/2024 16:15:08] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-03-03 16:15:08,327 | INFO | 12404 | 127.0.0.1 - - [03/Mar/2024 16:15:08] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-03 16:15:08,327 | INFO | 12404 | 127.0.0.1 - - [03/Mar/2024 16:15:08] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-03 16:15:08,330 | INFO | 12404 | 127.0.0.1 - - [03/Mar/2024 16:15:08] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-03 16:15:08,344 | INFO | 12404 | 127.0.0.1 - - [03/Mar/2024 16:15:08] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-03 16:15:08,346 | INFO | 12404 | 127.0.0.1 - - [03/Mar/2024 16:15:08] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-03 16:15:09,612 | INFO | 12404 | 127.0.0.1 - - [03/Mar/2024 16:15:09] "[33mGET /proxy/board/detail/16 HTTP/1.1[0m" 404 -
+2024-03-03 16:15:19,007 | INFO | 12404 | 127.0.0.1 - - [03/Mar/2024 16:15:19] "[33mGET /proxy/board/detail/16 HTTP/1.1[0m" 404 -
+2024-03-03 16:15:21,301 | INFO | 12404 | 127.0.0.1 - - [03/Mar/2024 16:15:21] "[33mGET /proxy/board/detail/8 HTTP/1.1[0m" 404 -
+2024-03-03 16:15:38,482 | INFO | 12404 |  * Detected change in 'c:\\Users\\jaeyeong\\Desktop\\blind_project\\board.py', reloading
+2024-03-03 16:15:38,542 | INFO | 24232 |  * Restarting with stat
+2024-03-03 16:15:39,134 | WARNING | 22472 |  * Debugger is active!
+2024-03-03 16:15:39,147 | INFO | 22472 |  * Debugger PIN: 106-142-433
+2024-03-03 16:15:45,189 | INFO | 22472 |  * Detected change in 'c:\\Users\\jaeyeong\\Desktop\\blind_project\\board.py', reloading
+2024-03-03 16:15:45,292 | INFO | 24232 |  * Restarting with stat
+2024-03-03 16:15:45,904 | WARNING | 22560 |  * Debugger is active!
+2024-03-03 16:15:45,925 | INFO | 22560 |  * Debugger PIN: 106-142-433
+2024-03-03 16:15:52,980 | INFO | 22560 |  * Detected change in 'c:\\Users\\jaeyeong\\Desktop\\blind_project\\blind.py', reloading
+2024-03-03 16:15:53,017 | INFO | 24232 |  * Restarting with stat
+2024-03-03 16:15:53,557 | WARNING | 11344 |  * Debugger is active!
+2024-03-03 16:15:53,566 | INFO | 11344 |  * Debugger PIN: 106-142-433
+2024-03-03 16:16:06,635 | INFO | 11344 |  * Detected change in 'c:\\Users\\jaeyeong\\Desktop\\blind_project\\blind.py', reloading
+2024-03-03 16:16:06,672 | INFO | 24232 |  * Restarting with stat
+2024-03-03 16:16:07,223 | WARNING | 12060 |  * Debugger is active!
+2024-03-03 16:16:07,232 | INFO | 12060 |  * Debugger PIN: 106-142-433
+2024-03-03 16:16:18,145 | INFO | 12060 | guest: blind_board_DAO.selectBoard()종료
+2024-03-03 16:16:18,145 | INFO | 12060 | Welcome to the BLIND
+2024-03-03 16:16:18,156 | INFO | 12060 | 127.0.0.1 - - [03/Mar/2024 16:16:18] "GET / HTTP/1.1" 200 -
+2024-03-03 16:16:18,365 | INFO | 12060 | 127.0.0.1 - - [03/Mar/2024 16:16:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-03 16:16:18,398 | INFO | 12060 | 127.0.0.1 - - [03/Mar/2024 16:16:18] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-03 16:16:18,399 | INFO | 12060 | 127.0.0.1 - - [03/Mar/2024 16:16:18] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-03 16:16:18,413 | INFO | 12060 | 127.0.0.1 - - [03/Mar/2024 16:16:18] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-03 16:16:18,417 | INFO | 12060 | 127.0.0.1 - - [03/Mar/2024 16:16:18] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-03 16:16:18,419 | INFO | 12060 | 127.0.0.1 - - [03/Mar/2024 16:16:18] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-03-03 16:16:18,422 | INFO | 12060 | 127.0.0.1 - - [03/Mar/2024 16:16:18] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-03 16:16:19,156 | INFO | 12060 | guest: blind_board_DAO.selectBoard()종료
+2024-03-03 16:16:19,156 | INFO | 12060 | Welcome to the BLIND
+2024-03-03 16:16:19,157 | INFO | 12060 | 127.0.0.1 - - [03/Mar/2024 16:16:19] "GET / HTTP/1.1" 200 -
+2024-03-03 16:16:19,178 | INFO | 12060 | 127.0.0.1 - - [03/Mar/2024 16:16:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-03 16:16:19,185 | INFO | 12060 | 127.0.0.1 - - [03/Mar/2024 16:16:19] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-03 16:16:19,188 | INFO | 12060 | 127.0.0.1 - - [03/Mar/2024 16:16:19] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-03 16:16:19,188 | INFO | 12060 | 127.0.0.1 - - [03/Mar/2024 16:16:19] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-03 16:16:19,189 | INFO | 12060 | 127.0.0.1 - - [03/Mar/2024 16:16:19] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-03-03 16:16:19,212 | INFO | 12060 | 127.0.0.1 - - [03/Mar/2024 16:16:19] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-03 16:16:19,213 | INFO | 12060 | 127.0.0.1 - - [03/Mar/2024 16:16:19] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-03 16:16:19,483 | DEBUG | 12060 | Starting new HTTP connection (1): internal-internalelb4-427127954.ap-northeast-1.elb.amazonaws.com:80
+2024-03-03 16:17:01,630 | INFO | 12060 | 127.0.0.1 - - [03/Mar/2024 16:17:01] "[35m[1mGET /proxy/board/detail/8 HTTP/1.1[0m" 500 -
+2024-03-03 16:17:01,694 | INFO | 12060 | 127.0.0.1 - - [03/Mar/2024 16:17:01] "GET /proxy/board/detail/8?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-03-03 16:17:01,725 | INFO | 12060 | 127.0.0.1 - - [03/Mar/2024 16:17:01] "GET /proxy/board/detail/8?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-03-03 16:17:01,822 | INFO | 12060 | 127.0.0.1 - - [03/Mar/2024 16:17:01] "GET /proxy/board/detail/8?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-03-03 16:17:01,859 | INFO | 12060 | 127.0.0.1 - - [03/Mar/2024 16:17:01] "[36mGET /proxy/board/detail/8?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-03 16:17:29,577 | INFO | 12060 |  * Detected change in 'c:\\Users\\jaeyeong\\Desktop\\blind_project\\blind.py', reloading
+2024-03-03 16:17:29,621 | INFO | 24232 |  * Restarting with stat
+2024-03-03 16:17:30,205 | WARNING | 12384 |  * Debugger is active!
+2024-03-03 16:17:30,218 | INFO | 12384 |  * Debugger PIN: 106-142-433
+2024-03-03 16:17:32,887 | INFO | 12384 | guest: blind_board_DAO.selectBoard()종료
+2024-03-03 16:17:32,887 | INFO | 12384 | Welcome to the BLIND
+2024-03-03 16:17:32,900 | INFO | 12384 | 127.0.0.1 - - [03/Mar/2024 16:17:32] "GET / HTTP/1.1" 200 -
+2024-03-03 16:17:33,081 | INFO | 12384 | 127.0.0.1 - - [03/Mar/2024 16:17:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-03 16:17:33,097 | INFO | 12384 | 127.0.0.1 - - [03/Mar/2024 16:17:33] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-03 16:17:33,100 | INFO | 12384 | 127.0.0.1 - - [03/Mar/2024 16:17:33] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-03 16:17:33,111 | INFO | 12384 | 127.0.0.1 - - [03/Mar/2024 16:17:33] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-03 16:17:33,112 | INFO | 12384 | 127.0.0.1 - - [03/Mar/2024 16:17:33] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-03 16:17:33,114 | INFO | 12384 | 127.0.0.1 - - [03/Mar/2024 16:17:33] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-03-03 16:17:33,121 | INFO | 12384 | 127.0.0.1 - - [03/Mar/2024 16:17:33] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-03 16:17:33,559 | INFO | 12384 | 127.0.0.1 - - [03/Mar/2024 16:17:33] "[35m[1mGET /proxy/board/detail/16 HTTP/1.1[0m" 500 -
+2024-03-03 16:17:33,610 | INFO | 12384 | 127.0.0.1 - - [03/Mar/2024 16:17:33] "GET /proxy/board/detail/16?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-03-03 16:17:33,612 | INFO | 12384 | 127.0.0.1 - - [03/Mar/2024 16:17:33] "GET /proxy/board/detail/16?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-03-03 16:17:33,648 | INFO | 12384 | 127.0.0.1 - - [03/Mar/2024 16:17:33] "GET /proxy/board/detail/16?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-03-03 16:17:33,679 | INFO | 12384 | 127.0.0.1 - - [03/Mar/2024 16:17:33] "[36mGET /proxy/board/detail/16?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-03 16:18:41,497 | INFO | 12384 |  * Detected change in 'c:\\Users\\jaeyeong\\Desktop\\blind_project\\blind.py', reloading
+2024-03-03 16:18:41,551 | INFO | 24232 |  * Restarting with stat
+2024-03-03 16:18:42,094 | WARNING | 24452 |  * Debugger is active!
+2024-03-03 16:18:42,106 | INFO | 24452 |  * Debugger PIN: 106-142-433
+2024-03-03 16:18:44,108 | INFO | 24452 | guest: blind_board_DAO.selectBoard()종료
+2024-03-03 16:18:44,108 | INFO | 24452 | Welcome to the BLIND
+2024-03-03 16:18:44,119 | INFO | 24452 | 127.0.0.1 - - [03/Mar/2024 16:18:44] "GET / HTTP/1.1" 200 -
+2024-03-03 16:18:44,304 | INFO | 24452 | 127.0.0.1 - - [03/Mar/2024 16:18:44] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-03 16:18:44,310 | INFO | 24452 | 127.0.0.1 - - [03/Mar/2024 16:18:44] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-03 16:18:44,311 | INFO | 24452 | 127.0.0.1 - - [03/Mar/2024 16:18:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-03 16:18:44,318 | INFO | 24452 | 127.0.0.1 - - [03/Mar/2024 16:18:44] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-03 16:18:44,322 | INFO | 24452 | 127.0.0.1 - - [03/Mar/2024 16:18:44] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-03 16:18:44,323 | INFO | 24452 | 127.0.0.1 - - [03/Mar/2024 16:18:44] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-03-03 16:18:44,327 | INFO | 24452 | 127.0.0.1 - - [03/Mar/2024 16:18:44] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-03 16:18:44,684 | INFO | 24452 | 127.0.0.1 - - [03/Mar/2024 16:18:44] "[35m[1mGET /proxy/board/detail/9 HTTP/1.1[0m" 500 -
+2024-03-03 16:18:44,721 | INFO | 24452 | 127.0.0.1 - - [03/Mar/2024 16:18:44] "GET /proxy/board/detail/9?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-03-03 16:18:44,723 | INFO | 24452 | 127.0.0.1 - - [03/Mar/2024 16:18:44] "GET /proxy/board/detail/9?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-03-03 16:18:44,737 | INFO | 24452 | 127.0.0.1 - - [03/Mar/2024 16:18:44] "GET /proxy/board/detail/9?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-03-03 16:18:44,764 | INFO | 24452 | 127.0.0.1 - - [03/Mar/2024 16:18:44] "[36mGET /proxy/board/detail/9?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-03 16:18:52,843 | INFO | 24452 | 127.0.0.1 - - [03/Mar/2024 16:18:52] "[35m[1mGET /proxy/board/detail/9 HTTP/1.1[0m" 500 -
+2024-03-03 16:18:52,859 | INFO | 24452 | 127.0.0.1 - - [03/Mar/2024 16:18:52] "[36mGET /proxy/board/detail/9?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-03 16:18:52,861 | INFO | 24452 | 127.0.0.1 - - [03/Mar/2024 16:18:52] "[36mGET /proxy/board/detail/9?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-03 16:18:52,887 | INFO | 24452 | 127.0.0.1 - - [03/Mar/2024 16:18:52] "[36mGET /proxy/board/detail/9?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-03 16:18:52,913 | INFO | 24452 | 127.0.0.1 - - [03/Mar/2024 16:18:52] "[36mGET /proxy/board/detail/9?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-03 16:19:29,333 | INFO | 24452 |  * Detected change in 'c:\\Users\\jaeyeong\\Desktop\\blind_project\\blind.py', reloading
+2024-03-03 16:19:29,387 | INFO | 24232 |  * Restarting with stat
+2024-03-03 16:19:29,909 | WARNING | 9720 |  * Debugger is active!
+2024-03-03 16:19:29,920 | INFO | 9720 |  * Debugger PIN: 106-142-433
+2024-03-03 16:19:30,942 | INFO | 9720 |  * Detected change in 'c:\\Users\\jaeyeong\\Desktop\\blind_project\\blind.py', reloading
+2024-03-03 16:19:30,985 | INFO | 24232 |  * Restarting with stat
+2024-03-03 16:19:31,637 | WARNING | 2196 |  * Debugger is active!
+2024-03-03 16:19:31,648 | INFO | 2196 |  * Debugger PIN: 106-142-433
+2024-03-03 16:19:34,841 | INFO | 2196 | guest: blind_board_DAO.selectBoard()종료
+2024-03-03 16:19:34,842 | INFO | 2196 | Welcome to the BLIND
+2024-03-03 16:19:34,853 | INFO | 2196 | 127.0.0.1 - - [03/Mar/2024 16:19:34] "GET / HTTP/1.1" 200 -
+2024-03-03 16:19:35,017 | INFO | 2196 | 127.0.0.1 - - [03/Mar/2024 16:19:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-03 16:19:35,044 | INFO | 2196 | 127.0.0.1 - - [03/Mar/2024 16:19:35] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-03-03 16:19:35,052 | INFO | 2196 | 127.0.0.1 - - [03/Mar/2024 16:19:35] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-03 16:19:35,053 | INFO | 2196 | 127.0.0.1 - - [03/Mar/2024 16:19:35] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-03 16:19:35,057 | INFO | 2196 | 127.0.0.1 - - [03/Mar/2024 16:19:35] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-03 16:19:35,063 | INFO | 2196 | 127.0.0.1 - - [03/Mar/2024 16:19:35] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-03 16:19:35,063 | INFO | 2196 | 127.0.0.1 - - [03/Mar/2024 16:19:35] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-03 16:19:35,237 | DEBUG | 2196 | Starting new HTTP connection (1): 127.0.0.1:80
+2024-03-03 16:19:35,769 | DEBUG | 2196 | Starting new HTTP connection (1): 127.0.0.1:80
+2024-03-03 16:19:36,294 | DEBUG | 2196 | Starting new HTTP connection (1): 127.0.0.1:80
+2024-03-03 16:19:36,838 | DEBUG | 2196 | Starting new HTTP connection (1): 127.0.0.1:80
+2024-03-03 16:19:37,280 | INFO | 2196 | 127.0.0.1 - - [03/Mar/2024 16:19:37] "[35m[1mGET /proxy/board/detail/8 HTTP/1.1[0m" 500 -
+2024-03-03 16:19:37,805 | INFO | 2196 | 127.0.0.1 - - [03/Mar/2024 16:19:37] "[35m[1mGET /proxy/board/detail/8 HTTP/1.1[0m" 500 -
+2024-03-03 16:19:38,335 | INFO | 2196 | 127.0.0.1 - - [03/Mar/2024 16:19:38] "[35m[1mGET /proxy/board/detail/8 HTTP/1.1[0m" 500 -
+2024-03-03 16:19:38,895 | INFO | 2196 | 127.0.0.1 - - [03/Mar/2024 16:19:38] "[35m[1mGET /proxy/board/detail/8 HTTP/1.1[0m" 500 -
+2024-03-03 16:19:38,908 | INFO | 2196 | 127.0.0.1 - - [03/Mar/2024 16:19:38] "[36mGET /proxy/board/detail/8?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-03 16:19:38,918 | INFO | 2196 | 127.0.0.1 - - [03/Mar/2024 16:19:38] "[36mGET /proxy/board/detail/8?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-03 16:19:38,959 | INFO | 2196 | 127.0.0.1 - - [03/Mar/2024 16:19:38] "[36mGET /proxy/board/detail/8?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-03 16:19:47,116 | DEBUG | 2196 | Starting new HTTP connection (1): 127.0.0.1:80
+2024-03-03 16:19:49,158 | INFO | 2196 | 127.0.0.1 - - [03/Mar/2024 16:19:49] "[35m[1mGET /proxy/board/detail/8 HTTP/1.1[0m" 500 -
+2024-03-03 16:19:49,176 | INFO | 2196 | 127.0.0.1 - - [03/Mar/2024 16:19:49] "[36mGET /proxy/board/detail/8?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-03-03 16:19:49,181 | INFO | 2196 | 127.0.0.1 - - [03/Mar/2024 16:19:49] "[36mGET /proxy/board/detail/8?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-03-03 16:19:49,200 | INFO | 2196 | 127.0.0.1 - - [03/Mar/2024 16:19:49] "[36mGET /proxy/board/detail/8?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-03 16:19:49,242 | INFO | 2196 | 127.0.0.1 - - [03/Mar/2024 16:19:49] "[36mGET /proxy/board/detail/8?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-03-03 16:20:04,786 | INFO | 2196 |  * Detected change in 'c:\\Users\\jaeyeong\\Desktop\\blind_project\\blind.py', reloading
+2024-03-03 16:20:04,854 | INFO | 24232 |  * Restarting with stat
+2024-03-03 16:20:05,363 | WARNING | 20256 |  * Debugger is active!
+2024-03-03 16:20:05,379 | INFO | 20256 |  * Debugger PIN: 106-142-433
+2024-03-03 16:20:06,082 | INFO | 20256 | guest: blind_board_DAO.selectBoard()종료
+2024-03-03 16:20:06,083 | INFO | 20256 | Welcome to the BLIND
+2024-03-03 16:20:06,093 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 16:20:06] "GET / HTTP/1.1" 200 -
+2024-03-03 16:20:06,246 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 16:20:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-03 16:20:06,332 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 16:20:06] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-03 16:20:06,335 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 16:20:06] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-03 16:20:06,339 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 16:20:06] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-03 16:20:06,348 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 16:20:06] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-03 16:20:06,350 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 16:20:06] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-03 16:20:06,350 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 16:20:06] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-03-03 16:20:06,521 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 16:20:06] "[33mGET /proxy/board/detail/8 HTTP/1.1[0m" 404 -
+2024-03-03 16:20:17,558 | INFO | 20256 | guest: blind_board_DAO.selectBoard()종료
+2024-03-03 16:20:17,558 | INFO | 20256 | Welcome to the BLIND
+2024-03-03 16:20:17,563 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 16:20:17] "GET / HTTP/1.1" 200 -
+2024-03-03 16:20:17,583 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 16:20:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-03 16:20:17,590 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 16:20:17] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-03 16:20:17,590 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 16:20:17] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-03 16:20:17,591 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 16:20:17] "[36mGET /static/css/search.css HTTP/1.1[0m" 304 -
+2024-03-03 16:20:17,591 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 16:20:17] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-03 16:20:17,616 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 16:20:17] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-03 16:20:17,620 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 16:20:17] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-03 16:20:18,496 | INFO | 20256 | guest: board.detail(16)에 진입
+2024-03-03 16:20:18,497 | INFO | 20256 | guest: blind_bloard_DAO.selectBoardByIdx(16)
+2024-03-03 16:20:18,697 | INFO | 20256 | guest: blind_board_DAO.selectBoardById()종료
+2024-03-03 16:20:18,697 | INFO | 20256 | guest: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-03-03 16:20:18,918 | INFO | 20256 | guest: blind_reply_DAO.selectReplyByIdx()종료
+2024-03-03 16:20:18,919 | INFO | 20256 | guest: board.detail(16)종료
+2024-03-03 16:20:18,927 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 16:20:18] "GET /board/detail/16 HTTP/1.1" 200 -
+2024-03-03 16:20:18,948 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 16:20:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-03 16:20:18,952 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 16:20:18] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-03 16:20:18,952 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 16:20:18] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-03 16:20:18,953 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 16:20:18] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-03 16:20:18,965 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 16:20:18] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-03 16:20:18,966 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 16:20:18] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-03 16:20:23,179 | INFO | 20256 | guest: board.detail(10)에 진입
+2024-03-03 16:20:23,179 | INFO | 20256 | guest: blind_bloard_DAO.selectBoardByIdx(10)
+2024-03-03 16:20:23,418 | INFO | 20256 | guest: blind_board_DAO.selectBoardById()종료
+2024-03-03 16:20:23,419 | INFO | 20256 | guest: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-03-03 16:20:23,628 | INFO | 20256 | guest: blind_reply_DAO.selectReplyByIdx()종료
+2024-03-03 16:20:23,628 | INFO | 20256 | guest: board.detail(10)종료
+2024-03-03 16:20:23,629 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 16:20:23] "GET /board/detail/10 HTTP/1.1" 200 -
+2024-03-03 16:20:23,668 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 16:20:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-03 16:20:23,684 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 16:20:23] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-03 16:20:23,685 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 16:20:23] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-03 16:20:23,686 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 16:20:23] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-03 16:20:23,697 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 16:20:23] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-03 16:20:23,698 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 16:20:23] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-03 22:34:16,964 | INFO | 20256 | guest: board.detail(16)에 진입
+2024-03-03 22:34:16,968 | INFO | 20256 | guest: blind_bloard_DAO.selectBoardByIdx(16)
+2024-03-03 22:34:17,275 | INFO | 20256 | guest: blind_board_DAO.selectBoardById()종료
+2024-03-03 22:34:17,276 | INFO | 20256 | guest: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-03-03 22:34:17,487 | INFO | 20256 | guest: blind_reply_DAO.selectReplyByIdx()종료
+2024-03-03 22:34:17,488 | INFO | 20256 | guest: board.detail(16)종료
+2024-03-03 22:34:17,492 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 22:34:17] "GET /board/detail/16 HTTP/1.1" 200 -
+2024-03-03 22:34:17,510 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 22:34:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-03 22:34:17,519 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 22:34:17] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-03 22:34:17,520 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 22:34:17] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-03 22:34:17,521 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 22:34:17] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-03 22:34:17,532 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 22:34:17] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-03 22:34:17,533 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 22:34:17] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-03 22:34:18,383 | INFO | 20256 | guest: board.detail(16)에 진입
+2024-03-03 22:34:18,384 | INFO | 20256 | guest: blind_bloard_DAO.selectBoardByIdx(16)
+2024-03-03 22:34:18,585 | INFO | 20256 | guest: blind_board_DAO.selectBoardById()종료
+2024-03-03 22:34:18,585 | INFO | 20256 | guest: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-03-03 22:34:18,785 | INFO | 20256 | guest: blind_reply_DAO.selectReplyByIdx()종료
+2024-03-03 22:34:18,785 | INFO | 20256 | guest: board.detail(16)종료
+2024-03-03 22:34:18,786 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 22:34:18] "GET /board/detail/16 HTTP/1.1" 200 -
+2024-03-03 22:34:18,801 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 22:34:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-03 22:34:18,805 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 22:34:18] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-03 22:34:18,806 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 22:34:18] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-03 22:34:18,808 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 22:34:18] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-03 22:34:18,824 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 22:34:18] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-03 22:34:18,825 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 22:34:18] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-03 22:34:38,421 | INFO | 20256 | guest: board.detail(16)에 진입
+2024-03-03 22:34:38,422 | INFO | 20256 | guest: blind_bloard_DAO.selectBoardByIdx(16)
+2024-03-03 22:34:38,739 | INFO | 20256 | guest: blind_board_DAO.selectBoardById()종료
+2024-03-03 22:34:38,740 | INFO | 20256 | guest: blind_reply_DAO.selectReplyByIdx()에 진입
+2024-03-03 22:34:38,942 | INFO | 20256 | guest: blind_reply_DAO.selectReplyByIdx()종료
+2024-03-03 22:34:38,943 | INFO | 20256 | guest: board.detail(16)종료
+2024-03-03 22:34:38,944 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 22:34:38] "GET /board/detail/16 HTTP/1.1" 200 -
+2024-03-03 22:34:38,991 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 22:34:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-03-03 22:34:38,995 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 22:34:38] "[36mGET /static/css/font.css HTTP/1.1[0m" 304 -
+2024-03-03 22:34:38,997 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 22:34:38] "[36mGET /static/img/logo.png HTTP/1.1[0m" 304 -
+2024-03-03 22:34:39,001 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 22:34:39] "[36mGET /static/img/main_banner.png HTTP/1.1[0m" 304 -
+2024-03-03 22:34:39,020 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 22:34:39] "[36mGET /static/img/main_banner2.png HTTP/1.1[0m" 304 -
+2024-03-03 22:34:39,020 | INFO | 20256 | 127.0.0.1 - - [03/Mar/2024 22:34:39] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+2024-03-03 22:42:23,687 | INFO | 20256 |  * Detected change in 'c:\\Users\\jaeyeong\\Desktop\\blind_project\\blind.py', reloading
+2024-03-03 22:42:23,746 | INFO | 24232 |  * Restarting with stat
+2024-03-03 22:42:24,360 | WARNING | 15880 |  * Debugger is active!
+2024-03-03 22:42:24,373 | INFO | 15880 |  * Debugger PIN: 106-142-433
+2024-03-03 22:42:30,415 | INFO | 15880 |  * Detected change in 'c:\\Users\\jaeyeong\\Desktop\\blind_project\\blind.py', reloading
+2024-03-03 22:42:30,452 | INFO | 24232 |  * Restarting with stat
+2024-03-03 23:05:54,432 | INFO | 18172 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.219.194:5000
+2024-03-03 23:05:54,434 | INFO | 18172 | [33mPress CTRL+C to quit[0m
+2024-03-03 23:05:54,439 | INFO | 18172 |  * Restarting with stat
+2024-03-03 23:05:54,863 | WARNING | 11744 |  * Debugger is active!
+2024-03-03 23:05:54,886 | INFO | 11744 |  * Debugger PIN: 106-142-433
+2024-03-03 23:07:19,261 | INFO | 3544 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.219.194:5000
+2024-03-03 23:07:19,262 | INFO | 3544 | [33mPress CTRL+C to quit[0m
+2024-03-03 23:07:19,267 | INFO | 3544 |  * Restarting with stat
+2024-03-03 23:07:19,672 | WARNING | 22532 |  * Debugger is active!
+2024-03-03 23:07:19,683 | INFO | 22532 |  * Debugger PIN: 106-142-433
+2024-03-03 23:37:58,526 | INFO | 7240 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.219.194:5000
+2024-03-03 23:37:58,527 | INFO | 7240 | [33mPress CTRL+C to quit[0m
+2024-03-03 23:37:58,531 | INFO | 7240 |  * Restarting with stat
+2024-03-03 23:37:58,923 | WARNING | 20036 |  * Debugger is active!
+2024-03-03 23:37:58,933 | INFO | 20036 |  * Debugger PIN: 106-142-433
+2024-03-03 23:38:05,974 | INFO | 20036 |  * Detected change in 'c:\\Users\\jaeyeong\\Desktop\\blind_project\\board.py', reloading
+2024-03-03 23:38:06,019 | INFO | 7240 |  * Restarting with stat
+2024-03-03 23:38:06,505 | WARNING | 17216 |  * Debugger is active!
+2024-03-03 23:38:06,515 | INFO | 17216 |  * Debugger PIN: 106-142-433

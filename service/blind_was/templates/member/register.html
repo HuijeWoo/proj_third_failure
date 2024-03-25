@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>Blind</title>
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" href="{{url_for('static', filename='css/styles.css')}}">
+        <link rel="stylesheet" href="{{url_for('static', filename='css/font.css')}}">
+        <script src="https://kit.fontawesome.com/a3c7f4e956.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    </head>
+    <body class="d-flex flex-column min-vh-100">
+
+        {% include 'header.html' %}
+
+        <!-- Page Content-->
+        <div class="container px-4 px-lg-5"  align="center">
+            <!-- Heading Row-->
+            <div class="row gx-4 gx-lg-5 align-items-center my-5">
+                <div class="col-lg-6"><a href="#"><img class="img-fluid rounded mb-4 mb-lg-0" src="{{url_for('static',filename='img/main_banner.png')}}"/></a></div>
+                <div class="col-lg-6"><a href="#"><img class="img-fluid rounded mb-4 mb-lg-0" src="{{url_for('static',filename='img/main_banner2.png')}}"/></a></div>
+            </div>
+            
+            <form method="post" class="col-lg-6" onsubmit="return checkRegister()" align="left">
+                <div class="mb-3 mt-3">
+                    <label class="form-label"><i class="fa-solid fa-user"> ID</i></label>
+                    <input type="text" onkeyup="checkReg(event)" class="form-control" placeholder="ID를 입력해주세요" name="user_id" id="user_id" maxlength="20">
+                    <p id="user_id_alert"></p>
+                    <input type="hidden" id="check_id" value="">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label"><i class="fa-solid fa-lock"> Password</i></label>
+                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="right" title="영문 대소문자, 숫자, 특수문자(@$!%*#?&)를 포함해 8자리 이상입니다.">
+                        <i class="fa fa-info-circle"  aria-hidden="true"></i>
+                    </a>
+                    <input type="password" class="form-control" placeholder="Password를 입력해주세요" name="user_password" id="user_password" maxlength="20">
+                    <p id="user_password_alert"></p>
+                    <input type="hidden" id="check_pw" value="">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label"><i class="fa-solid fa-user"> 닉네임</i></label>
+                    <input type="text" class="form-control" placeholder="닉네임을 입력해주세요" name="user_name" id="user_name" maxlength="20">
+                    <p id="user_name_alert"></p>
+                    <input type="hidden" id="check_name" value="">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label"><i class="fa-solid fa-envelope"> E-mail</i></label>
+                    <input type="text" class="form-control" placeholder="email을 입력해주세요" name="user_email" id="user_email" maxlength="30" onkeyup="checkReg(event)">
+                    <p id="user_email_alert"></p>
+                    <input type="hidden" id="check_email" value="">
+                </div>
+                <div align="center">                  
+                    <button type="submit" class="btn btn-success" >Sign Up</button>
+                    <button type="reset" class="btn btn-danger">Reset</button>
+                </div>
+            </form>
+        </div>
+
+        <p></p>
+
+        {% include 'footer.html' %}
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script type="text/javascript" src="{{url_for('static',filename='js/scripts.js')}}"></script>
+        <script type=text/javascript>
+            
+            $(function(){
+                // ID
+                $('#user_id').focusout(function(){
+                    if($('#user_id').val() !== '') {
+                        let insert_id = $('#user_id').val()
+                        insert_id = JSON.stringify(insert_id)
+                        $.ajax({
+                            url:'/member/idDuplicateCheck',
+                            type:'post',
+                            data:insert_id,
+                            contentType:'application/json;charset=UTF-8',
+                            success:function(result){
+                                if(result.status == 'success'){
+                                    $('#user_id_alert').text(result.message).css("color","red")
+                                    $('#check_id').val('false')
+                                } else if(result.status == 'fail'){
+                                    $('#user_id_alert').text(result.message).css("color","black")
+                                    $('#check_id').val('true')
+                                }
+                            }
+                        });
+                    } else{
+                        $('#user_id_alert').text('')
+                    }
+                })
+
+                // Password
+                $('#user_password').focusout(function(){
+                    if($('#user_password').val() !== ''){
+                        let insert_password = $('#user_password').val()
+                        insert_password = JSON.stringify(insert_password)
+                        $.ajax({
+                            url:'/member/passwordConditionCheck',
+                            type:'post',
+                            data:insert_password,
+                            contentType:'application/json;charset=UTF-8',
+                            success:function(result){
+                                if(result.status == 'success'){
+                                    $('#user_password_alert').text(result.message).css("color","red")
+                                    $('#check_pw').val('false')
+                                } else if(result.status == 'fail'){
+                                    $('#user_password_alert').text(result.message).css("color","black")
+                                    $('#check_pw').val('true')
+                                }
+                            }
+                        });
+                    }else{
+                        $('#user_password_alert').text('')
+                    }
+                })
+
+                // e-mail
+                $('#user_email').focusout(function(){    
+                    if($('#user_email').val() !== ''){
+                        let insert_email = $('#user_email').val()
+                        insert_email = JSON.stringify(insert_email)
+                        $.ajax({
+                            url:'/member/emailDuplicateCheck',
+                            type:'post',
+                            data:insert_email,
+                            contentType:'application/json;charset=UTF-8',
+                            success:function(result){
+                                if(result.status == 'success'){
+                                    $('#user_email_alert').text(result.message).css("color","red")
+                                    $('#check_email').val('false')
+                                } else if(result.status == 'fail'){
+                                    $('#user_email_alert').text(result.message).css("color","black")
+                                    $('#check_email').val('true')
+                                }
+                            }
+                        });
+                    } else{
+                        $('#user_email_alert').text('')
+                    }
+                })
+
+                //닉네임
+                $('#user_name').focusout(function(){
+                    if($('#user_name').val() !== ''){
+                        let insert_name = $('#user_name').val()
+                        insert_name = JSON.stringify(insert_name)
+                        $.ajax({
+                            url:'/member/nameDuplicateCheck',
+                            type:'post',
+                            data:insert_name,
+                            contentType:'application/json;charset=UTF-8',
+                            success:function(result){
+                                if(result.status == 'success'){
+                                    $('#user_name_alert').text(result.message).css("color","red")
+                                    $('#check_name').val('false')
+                                } else if(result.status == 'fail'){
+                                    $('#user_name_alert').text(result.message).css("color","black")
+                                    $('#check_name').val('true')
+                                }
+                            }
+                        });
+                    }else{
+                        $('#user_name_alert').text('')
+                    }
+                })
+            })
+        </script>
+    </body>
+</html>

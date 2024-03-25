@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>Blind</title>
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" href="{{url_for('static', filename='css/styles.css')}}">
+        <link rel="stylesheet" href="{{url_for('static', filename='css/font.css')}}">
+        <script src="https://kit.fontawesome.com/a3c7f4e956.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="d-flex flex-column min-vh-100">
+
+        {% include 'header.html' %}
+
+        <!-- Page Content-->
+        <div class="container px-4 px-lg-5" align="center">
+            <!-- Heading Row-->
+            <div class="row gx-4 gx-lg-5 align-items-center my-5">
+                <div class="col-lg-6"><a href="#"><img class="img-fluid rounded mb-4 mb-lg-0" src="{{url_for('static',filename='img/main_banner.png')}}"/></a></div>
+                <div class="col-lg-6"><a href="#"><img class="img-fluid rounded mb-4 mb-lg-0" src="{{url_for('static',filename='img/main_banner2.png')}}"/></a></div>
+            </div>
+
+            <div class="card" style="width:400px; height: 360px;">
+                <div class="card-body">
+                    <h4 class="card-title">My Page</h4>
+                    <div class="mb-3 mt-3">
+                        <label class="form-label" style="padding-top: 100px;"><i class="fa-solid fa-user"> {{session_user['name']}} 님 환영합니다</i></label>
+                    </div>
+                    <div align="center" style="padding-top: 100px;">                  
+                        <a href="/member/mypageEdit/{{session_user['idx']}}" class="btn btn-success">Edit Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p></p>
+
+        {% include 'footer.html' %}
+        
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script type="text/javascript" src="{{url_for('static',filename='js/scripts.js')}}"></script>
+    </body>
+</html>
