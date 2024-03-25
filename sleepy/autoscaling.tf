@@ -30,7 +30,7 @@ resource "aws_autoscaling_group" "web_asg" {
     max_size = 5
     min_size = 2
     desired_capacity = 3
-    availability_zones = var.az_list
+    vpc_zone_identifier = [ aws_subnet.public[*].id ]
     launch_configuration = aws_launch_configuration.web_launch.name
     target_group_arns = [ aws_lb_target_group.exter_lb_tg.arn ]
     lifecycle { 
@@ -59,7 +59,7 @@ resource "aws_autoscaling_group" "was_asg" {
     max_size = 5
     min_size = 2
     desired_capacity = 3
-    availability_zones = var.az_list
+    vpc_zone_identifier = [ aws_subnet.web_private[*].id ]
     launch_configuration = aws_launch_configuration.was_launch.name
     target_group_arns = [ aws_lb_target_group.inter_lb_tg.arn ]
     lifecycle { 
