@@ -15,6 +15,10 @@ resource "aws_instance" "public" {
     lifecycle {
         create_before_destroy = true
     }
+    depends_on = [
+        aws_subnet.public,
+        aws_internet_gateway.igw_1
+    ]
     tags = {
         Name = "public-${count.index + 1}"
     }
@@ -36,6 +40,16 @@ resource "aws_instance" "web_private" {
     lifecycle {
         create_before_destroy = true
     }
+    depends_on = [ 
+        aws_efs_file_system.web_efs,
+        aws_subnet.web_private,
+        aws_nat_gateway.ngw_1
+    ]
+    user_data = templatefile("./user_data_web.sh", {
+        web_efs_id = aws_efs_file_system.web_efs.id,
+        mount_point = var.efs_mount_point
+  })
+
     tags = {
         Name = "web-private-${count.index + 1}"
     }
@@ -57,6 +71,16 @@ resource "aws_instance" "was_private" {
     lifecycle {
         create_before_destroy = true
     }
+    depends_on = [
+        aws_efs_file_system.was_efs,
+        aws_subnet.was_private,
+        aws_nat_gateway.ngw_1
+    ]
+    user_data = templatefile("./user_data_was.sh", {
+        was_efs_id = aws_efs_file_system.was_efs.id,
+        mount_point = var.efs_mount_point
+  })
+
     tags = {
         Name = "was-private-${count.index + 1}"
     }

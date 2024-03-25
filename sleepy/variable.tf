@@ -26,3 +26,10 @@ variable "basic_instance_type"{
     type = list(string)
     default = ["t2.micro", "t2.micro"]
 }
+
+# 하느님이 보우하사
+variable "efs_mount_point" {
+  description = "Determine the mount point"
+  type        = string
+  default     = "/home/ec2-user/service"
+}
