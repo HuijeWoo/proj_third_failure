@@ -33,8 +33,26 @@ resource "aws_autoscaling_group" "web_asg" {
     vpc_zone_identifier = aws_subnet.public[*].id 
     launch_configuration = aws_launch_configuration.web_launch.name
     target_group_arns = [ aws_lb_target_group.exter_lb_tg.arn ]
+    enabled_metrics = [
+      "GroupMinSize",
+      "GroupMaxSize",
+      "GroupDesiredCapacity",
+      "GroupInServiceInstances",
+      "GroupTotalInstances"
+    ]
+    health_check_grace_period = 100
+    depends_on = [
+        aws_efs_file_system.web_efs,
+        aws_instance.web_private
+    ]
     lifecycle { 
         ignore_changes = [desired_capacity, target_group_arns]
+        create_before_destroy = true
+    }
+    tag {
+        key = "Name"
+        value = "web"
+        propagate_at_launch = true
     }
 }
 resource "aws_autoscaling_attachment" "web_asg_attach" {
@@ -62,8 +80,26 @@ resource "aws_autoscaling_group" "was_asg" {
     vpc_zone_identifier = aws_subnet.web_private[*].id 
     launch_configuration = aws_launch_configuration.was_launch.name
     target_group_arns = [ aws_lb_target_group.inter_lb_tg.arn ]
+    enabled_metrics = [
+        "GroupMinSize",
+        "GroupMaxSize",
+        "GroupDesiredCapacity",
+        "GroupInServiceInstances",
+        "GroupTotalInstances"
+    ]
+    health_check_grace_period = 100
+    depends_on = [
+        aws_efs_file_system.was_efs,
+        aws_instance.was_private
+    ]
     lifecycle { 
         ignore_changes = [desired_capacity, target_group_arns]
+        create_before_destroy = true
+    }
+    tag {
+        key = "Name"
+        value = "was"
+        propagate_at_launch = true
     }
 }
 resource "aws_autoscaling_attachment" "was_asg_attach" {
