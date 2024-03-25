@@ -51,7 +51,11 @@ resource "aws_instance" "web_private" {
     ]
     user_data = templatefile("./user_data_web.sh", {
         web_efs_id = aws_efs_file_system.web_efs.id,
-        mount_point = var.efs_mount_point
+        mount_point = var.efs_mount_point,
+        host = aws_rds_cluster.aurora_mysql_db.endpoint,
+        database_name = aws_rds_cluster.aurora_mysql_db.database_name,
+        username = aws_rds_cluster.aurora_mysql_db.master_username,
+        password = aws_rds_cluster.aurora_mysql_db.master_password
   })
 
     tags = {
@@ -84,7 +88,11 @@ resource "aws_instance" "was_private" {
     ]
     user_data = templatefile("./user_data_was.sh", {
         was_efs_id = aws_efs_file_system.was_efs.id,
-        mount_point = var.efs_mount_point
+        mount_point = var.efs_mount_point,
+        host = aws_rds_cluster.aurora_mysql_db.endpoint,
+        database_name = aws_rds_cluster.aurora_mysql_db.database_name,
+        username = aws_rds_cluster.aurora_mysql_db.master_username,
+        password = aws_rds_cluster.aurora_mysql_db.master_password
   })
 
     tags = {

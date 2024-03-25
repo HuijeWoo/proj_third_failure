@@ -259,3 +259,35 @@ resource "aws_security_group_rule" "was_efs_out_all" {
     security_group_id = aws_security_group.was_efs_sg.id
     cidr_blocks       = ["0.0.0.0/0"]
 }
+
+/******** db ********/
+resource "aws_security_group" "db_sg" {
+    name        = "db-sg"
+    description = "sg for db"
+    vpc_id      = aws_vpc.vpc_1.id
+    lifecycle { 
+        create_before_destroy = true
+    }
+    depends_on = [
+        aws_subnet.was_private
+    ]
+    tags = {
+        Name = "db-sg" 
+    }
+}
+resource "aws_security_group_rule" "egr_db" {
+    type                     = "ingress"
+    from_port                = 3306
+    to_port                  = 3306
+    protocol                 = "tcp"
+    security_group_id        = aws_security_group.db_sg.id
+    source_security_group_id = aws_security_group.was_sg.id
+}
+resource "aws_security_group_rule" "db_out_all" {
+    type              = "egress"
+    to_port           = 0
+    protocol          = "-1"
+    from_port         = 0
+    security_group_id = aws_security_group.db_sg.id
+    cidr_blocks       = ["0.0.0.0/0"]
+}
