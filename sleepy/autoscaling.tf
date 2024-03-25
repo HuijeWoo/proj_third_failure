@@ -30,7 +30,7 @@ resource "aws_autoscaling_group" "web_asg" {
     max_size = 5
     min_size = 2
     desired_capacity = 3
-    vpc_zone_identifier = [ aws_subnet.public[*].id ]
+    vpc_zone_identifier = aws_subnet.public[*].id 
     launch_configuration = aws_launch_configuration.web_launch.name
     target_group_arns = [ aws_lb_target_group.exter_lb_tg.arn ]
     lifecycle { 
@@ -44,7 +44,7 @@ resource "aws_autoscaling_attachment" "web_asg_attach" {
 
 resource "aws_launch_configuration" "was_launch" {
   name     = "was-asg"
-  image_id        = aws_ami_from_instance.was_ami
+  image_id        = aws_ami_from_instance.was_ami.id
   instance_type   = "t2.micro"
   user_data       = file("user_data_was.sh")
   security_groups = [aws_security_group.was_sg.id]
@@ -59,7 +59,7 @@ resource "aws_autoscaling_group" "was_asg" {
     max_size = 5
     min_size = 2
     desired_capacity = 3
-    vpc_zone_identifier = [ aws_subnet.web_private[*].id ]
+    vpc_zone_identifier = aws_subnet.web_private[*].id 
     launch_configuration = aws_launch_configuration.was_launch.name
     target_group_arns = [ aws_lb_target_group.inter_lb_tg.arn ]
     lifecycle { 
