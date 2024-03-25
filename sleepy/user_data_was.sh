@@ -10,7 +10,7 @@ sudo mkdir -p ${mount_point}
 sudo su -c  "echo '${was_efs_id}:/ ${mount_point} efs _netdev,tls 0 0' >> /etc/fstab"
 sudo mount -t efs -o tls ${was_efs_id}:/ ${mount_point}
 
-sudo aws s3 cp s3://no-way-bucket/service/blind_was -r ${mount_point}
+sudo aws s3 cp s3://no-way-bucket/service/blind_was ${mount_point}/blind_was --recursive
 sudo aws s3 cp s3://no-way-bucket/service/was.tpl ${mount_point}
 
 sudo chown ec2-user:ec2-user -R ${mount_point}
