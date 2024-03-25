@@ -13,11 +13,11 @@ resource "aws_security_group" "public_sg" {
         Name = "public-sg" 
     }
 }
-resource "aws_security_group_rule" "ingr_22_for_public" {
+resource "aws_security_group_rule" "ingr_ssh_for_public" {
     type              = "ingress"
-    to_port           = 22
+    to_port           = var.ssh_port
     protocol          = "tcp"
-    from_port         = 22
+    from_port         = var.ssh_port
     security_group_id = aws_security_group.public_sg.id
     cidr_blocks       = [var.ip_all]
 }
@@ -44,11 +44,11 @@ resource "aws_security_group" "exter_lb_sg" {
         Name = "exter-lb-sg" 
     }
 }
-resource "aws_security_group_rule" "ingr_80_for_exter_lb" {
+resource "aws_security_group_rule" "ingr_http_for_exter_lb" {
     type              = "ingress"
-    to_port           = 80
+    to_port           = var.http_port
     protocol          = "tcp"
-    from_port         = 80
+    from_port         = var.http_port
     security_group_id = aws_security_group.exter_lb_sg.id
     cidr_blocks       = [var.ip_all]
 }
@@ -75,21 +75,21 @@ resource "aws_security_group" "web_sg" {
         Name = "web-sg" 
     }
 }
-#### external-lb -> (8080 web)
+#### external-lb -> (5000 web)
 resource "aws_security_group_rule" "ingr_from_exter_lb" {
     type              = "ingress"
-    to_port           = 8080
+    to_port           = 5000
     protocol          = "tcp"
-    from_port         = 8080
+    from_port         = 5000
     security_group_id = aws_security_group.web_sg.id
     source_security_group_id = aws_security_group.exter_lb_sg.id
 }
 ####
-resource "aws_security_group_rule" "ingr_22_for_web_with_public" {
+resource "aws_security_group_rule" "ingr_ssh_for_web_with_public" {
     type              = "ingress"
-    to_port           = 22
+    to_port           = var.ssh_port
     protocol          = "tcp"
-    from_port         = 22
+    from_port         = var.ssh_port
     security_group_id = aws_security_group.web_sg.id
     source_security_group_id = aws_security_group.public_sg.id
 }
@@ -109,7 +109,7 @@ resource "aws_security_group_rule" "web-out-all" {
     security_group_id = aws_security_group.web_sg.id
     cidr_blocks       = [var.ip_all]
 }
-/******** web efg ********/
+/******** web efs ********/
 resource "aws_security_group" "web_efs_sg" {
     name        = "web-efs-sg"
     description = "sg for web-efs"
@@ -126,8 +126,8 @@ resource "aws_security_group" "web_efs_sg" {
 }
 resource "aws_security_group_rule" "web_efs_ingr_from_web" {
     type                     = "ingress"
-    from_port                = 2049
-    to_port                  = 2049
+    from_port                = var.efs_port
+    to_port                  = var.efs_port
     protocol                 = "tcp"
     security_group_id        = aws_security_group.web_efs_sg.id
     source_security_group_id = aws_security_group.web_sg.id
@@ -157,17 +157,17 @@ resource "aws_security_group" "inter_lb_sg" {
 }
 resource "aws_security_group_rule" "ingr_from_web_private" {
     type              = "ingress"
-    to_port           = 8080
+    to_port           = 5000
     protocol          = "tcp"
-    from_port         = 8080
+    from_port         = 5000
     security_group_id = aws_security_group.inter_lb_sg.id
     source_security_group_id = aws_security_group.web_sg.id
 }
-resource "aws_security_group_rule" "ingr_from_public" {
+resource "aws_security_group_rule" "ingr_http_from_public" {
     type              = "ingress"
-    to_port           = 8080
+    to_port           = 80
     protocol          = "tcp"
-    from_port         = 8080
+    from_port         = 80
     security_group_id = aws_security_group.inter_lb_sg.id
     source_security_group_id = aws_security_group.public_sg.id
 }
@@ -194,28 +194,28 @@ resource "aws_security_group" "was_sg" {
         Name = "was-sg" 
     }
 }
-#### internal-lb -> (2222 was)
+#### internal-lb -> (5000 was)
 resource "aws_security_group_rule" "ingr_from_inter_lb" {
     type              = "ingress"
-    to_port           = 2222
+    to_port           = 5000
     protocol          = "tcp"
-    from_port         = 2222
+    from_port         = 5000
     security_group_id = aws_security_group.was_sg.id
     source_security_group_id = aws_security_group.inter_lb_sg.id
 }
 ####
-resource "aws_security_group_rule" "ingr_22_for_was_with_public" {
+resource "aws_security_group_rule" "ingr_ssh_for_was_with_public" {
     type              = "ingress"
-    to_port           = 22
+    to_port           = var.ssh_port
     protocol          = "tcp"
-    from_port         = 22
+    from_port         = var.ssh_port
     security_group_id = aws_security_group.was_sg.id
     source_security_group_id = aws_security_group.public_sg.id
 }
 resource "aws_security_group_rule" "was_egr_to_was_efs" {
     type                     = "egress" 
-    from_port                = 2049
-    to_port                  = 2049
+    from_port                = var.efs_port
+    to_port                  = var.efs_port
     protocol                 = "tcp"
     security_group_id        = aws_security_group.was_sg.id
     source_security_group_id = aws_security_group.was_efs_sg.id
@@ -245,8 +245,8 @@ resource "aws_security_group" "was_efs_sg" {
 }
 resource "aws_security_group_rule" "was_efs_ingr_from_was" {
     type                     = "ingress"
-    from_port                = 2049
-    to_port                  = 2049
+    from_port                = var.efs_port
+    to_port                  = var.efs_port
     protocol                 = "tcp"
     security_group_id        = aws_security_group.was_efs_sg.id
     source_security_group_id = aws_security_group.was_sg.id

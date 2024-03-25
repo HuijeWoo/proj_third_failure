@@ -26,10 +26,25 @@ variable "basic_instance_type"{
     type = list(string)
     default = ["t2.micro", "t2.micro"]
 }
-
-# 하느님이 보우하사
 variable "efs_mount_point" {
   description = "Determine the mount point"
   type        = string
   default     = "/home/ec2-user/service"
+}
+
+variable "efs_port" {
+    description = "efs_default_port"
+    type = number
+    default = 2049
+}
+variable "ssh_port" {
+    description = "ssh_default_port"
+    type = number
+    default = 22
+}
+
+variable "http_port" {
+    description = "http_default_port"
+    type = number
+    default = 80
 }

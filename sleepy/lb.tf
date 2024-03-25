@@ -14,7 +14,7 @@ resource "aws_lb" "exter_lb" {
 }
 resource "aws_lb_listener" "exter_listen_1" {
     load_balancer_arn = aws_lb.exter_lb.arn
-    port              = 80
+    port              = var.http_port
     protocol          = "HTTP"
     depends_on = [
         aws_lb.exter_lb
@@ -26,16 +26,16 @@ resource "aws_lb_listener" "exter_listen_1" {
 }
 resource "aws_lb_target_group" "exter_lb_tg" {
     name     = "exter-lb-tg"
-    port     = 8080
+    port     = 5000
     protocol = "HTTP"
     vpc_id   = aws_vpc.vpc_1.id
     health_check {
         path                = "/"
-        port                = 8080
+        port                = 5000
         protocol            = "HTTP"
         healthy_threshold   = 3
         unhealthy_threshold = 3
-        matcher             = "200-399,503"
+        matcher             = "200-399"
     }
     tags = {
         Name = "exter-lb-tg"
@@ -47,10 +47,10 @@ resource "aws_lb_target_group_attachment" "exter" {
     }
     target_group_arn = aws_lb_target_group.exter_lb_tg.arn
     target_id        = each.value.id
-    port             = 8080
+    port             = 5000
 }
 
-# 의도 : (바깥 80) -> (external lb) -> (web 8080 수신)
+# 의도 : (바깥 80) -> (external lb) -> (web 5000 수신)
 
 resource "aws_lb" "inter_lb" {
     name               = "inter-lb"
@@ -68,7 +68,7 @@ resource "aws_lb" "inter_lb" {
 }
 resource "aws_lb_listener" "inter_listen_1" {
     load_balancer_arn = aws_lb.inter_lb.arn
-    port              = 8080
+    port              = 5000
     protocol          = "HTTP"
     depends_on = [
         aws_lb.inter_lb
@@ -80,7 +80,7 @@ resource "aws_lb_listener" "inter_listen_1" {
 }
 resource "aws_lb_target_group" "inter_lb_tg" {
   name     = "inter-lb-tg"
-  port     = 2222
+  port     = 5000
   protocol = "HTTP"
   vpc_id   = aws_vpc.vpc_1.id
   tags = {
@@ -93,9 +93,9 @@ resource "aws_lb_target_group_attachment" "inter" {
     }
     target_group_arn = aws_lb_target_group.inter_lb_tg.arn
     target_id        = each.value.id
-    port             = 2222
+    port             = 5000
 }
 
-# 의도 : (web 8080 발신) -> (internal lb) -> (was 2222 수신)
+# 의도 : (web 5000 발신) -> (internal lb) -> (was 5000 수신)
 
 
