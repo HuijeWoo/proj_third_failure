@@ -55,7 +55,7 @@ resource "aws_instance" "web_private" {
   })
 
     tags = {
-        Name = "was-private-${count.index + 1}"
+        Name = "web-private-${count.index + 1}"
     }
 }
 resource "aws_instance" "was_private" {
