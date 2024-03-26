@@ -14,18 +14,18 @@ sudo aws s3 cp s3://no-way-bucket/service/blind_web ${mount_point}/blind_web --r
 sudo aws s3 cp s3://no-way-bucket/service/web.tpl ${mount_point}
 sudo chmod 755 -R ${mount_point}
 sudo chown ec2-user:ec2-user -R ${mount_point}
-sudo sed -i '8s/.*/user = "'${username}'"/g' ${mount_point}/blind_web/blind_board_DAO.py
-sudo sed -i '9s/.*/password = "'${password}'"/g' ${mount_point}/blind_web/blind_board_DAO.py
-sudo sed -i '10s/.*/host = "'${host}'"/g' ${mount_point}/blind_web/blind_board_DAO.py
-sudo sed -i '11s/.*/db = "'${database_name}'"/g' ${mount_point}/blind_web/blind_board_DAO.py
-sudo sed -i '8s/.*/user = "'${username}'"/g' ${mount_point}/blind_web/blind_member_DAO.py
-sudo sed -i '9s/.*/password = "'${password}'"/g' ${mount_point}/blind_web/blind_member_DAO.py
-sudo sed -i '10s/.*/host = "'${host}'"/g' ${mount_point}/blind_web/blind_member_DAO.py
-sudo sed -i '11s/.*/db = "'${database_name}'"/g' ${mount_point}/blind_web/blind_member_DAO.py
-sudo sed -i '8s/.*/user = "'${username}'"/g' ${mount_point}/blind_web/blind_reply_DAO.py
-sudo sed -i '9s/.*/password = "'${password}'"/g' ${mount_point}/blind_web/blind_reply_DAO.py
-sudo sed -i '10s/.*/host = "'${host}'"/g' ${mount_point}/blind_web/blind_reply_DAO.py
-sudo sed -i '11s/.*/db = "'${database_name}'"/g' ${mount_point}/blind_web/blind_reply_DAO.py
+sudo sed -i '8s/.*/user = "${username}"/g' ${mount_point}/blind_web/blind_board_DAO.py
+sudo sed -i '9s/.*/password = "${password}"/g' ${mount_point}/blind_web/blind_board_DAO.py
+sudo sed -i '10s/.*/host = "${host}"/g' ${mount_point}/blind_web/blind_board_DAO.py
+sudo sed -i '11s/.*/db = "${database_name}"/g' ${mount_point}/blind_web/blind_board_DAO.py
+sudo sed -i '8s/.*/user = "${username}"/g' ${mount_point}/blind_web/blind_member_DAO.py
+sudo sed -i '9s/.*/password = "${password}"/g' ${mount_point}/blind_web/blind_member_DAO.py
+sudo sed -i '10s/.*/host = "${host}"/g' ${mount_point}/blind_web/blind_member_DAO.py
+sudo sed -i '11s/.*/db = "${database_name}"/g' ${mount_point}/blind_web/blind_member_DAO.py
+sudo sed -i '8s/.*/user = "${username}"/g' ${mount_point}/blind_web/blind_reply_DAO.py
+sudo sed -i '9s/.*/password = "${password}"/g' ${mount_point}/blind_web/blind_reply_DAO.py
+sudo sed -i '10s/.*/host = "${host}"/g' ${mount_point}/blind_web/blind_reply_DAO.py
+sudo sed -i '11s/.*/db = "${database_name}"/g' ${mount_point}/blind_web/blind_reply_DAO.py
 sudo mv ${mount_point}/web.tpl ${mount_point}/blind_web.service
 sudo cp ${mount_point}/blind_web.service /etc/systemd/system/blind_web.service
 sudo systemctl daemon-reload

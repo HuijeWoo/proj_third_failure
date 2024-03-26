@@ -29,7 +29,9 @@ resource "aws_efs_mount_target" "web_mount" {
     security_groups = [aws_security_group.web_efs_sg.id]
     depends_on = [
         aws_efs_file_system.web_efs,
-        aws_instance.web_private
+        aws_instance.web_private,
+        aws_security_group.web_efs_sg,
+        aws_security_group.web_sg
     ]
 }
 resource "aws_efs_mount_target" "was_mount" {
@@ -39,6 +41,8 @@ resource "aws_efs_mount_target" "was_mount" {
     security_groups = [aws_security_group.was_efs_sg.id]
     depends_on = [
         aws_efs_file_system.was_efs,
-        aws_instance.was_private
+        aws_instance.was_private,
+        aws_security_group.was_efs_sg,
+        aws_security_group.was_sg
     ]
 }

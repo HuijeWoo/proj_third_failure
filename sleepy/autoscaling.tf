@@ -21,7 +21,6 @@ resource "aws_launch_configuration" "web_launch" {
   name_prefix     = "web-asg-"
   image_id        = aws_ami_from_instance.web_ami.id
   instance_type   = "t2.micro"
-  #user_data       = file("user_data_web.sh")
   security_groups = [aws_security_group.web_sg.id]
   key_name = aws_key_pair.key_1.id
   depends_on = [ 
@@ -69,7 +68,6 @@ resource "aws_launch_configuration" "was_launch" {
   name_prefix = "was-asg-"
   image_id        = aws_ami_from_instance.was_ami.id
   instance_type   = "t2.micro"
-  #user_data       = file("user_data_was.sh")
   security_groups = [aws_security_group.was_sg.id]
   key_name = aws_key_pair.key_1.id
   depends_on = [ 
