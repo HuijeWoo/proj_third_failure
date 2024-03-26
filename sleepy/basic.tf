@@ -100,7 +100,9 @@ resource "aws_route_table_association" "was_private" {
   route_table_id = aws_route_table.route_private.id
 }
 
-### endpoint
+
+
+### endpoint for s3
 
 resource "aws_vpc_endpoint" "s3" {
   vpc_id       = aws_vpc.vpc_1.id
@@ -111,4 +113,9 @@ resource "aws_vpc_endpoint" "s3" {
   tags = {
     Name = "vpc_endpoint_for_s3"
   }
+}
+
+resource "aws_vpc_endpoint_route_table_association" "s3_to_route_private" {
+  route_table_id  = aws_route_table.route_private.id
+  vpc_endpoint_id = aws_vpc_endpoint.s3.id
 }
