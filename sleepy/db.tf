@@ -22,6 +22,9 @@ resource "aws_rds_cluster" "aurora_mysql_db" {
   master_password = "12341234"
   skip_final_snapshot = true # RDS 삭제 시, 스냅샷 생성 X (true값으로 설정 시, terraform destroy 정상 수행 가능)
   port = 3306
+  lifecycle {
+    create_before_destroy = true
+  }
 }
 
 output "rds_writer_endpoint" { # rds cluster의 writer 인스턴스 endpoint 추출 (mysql 설정 및 Three-tier 연동파일에 정보 입력 필요해서 추출)
@@ -35,4 +38,12 @@ resource "aws_rds_cluster_instance" "aurora_mysql_db_instance" {
   instance_class = "db.t3.small" # DB 인스턴스 Class (메모리 최적화/버스터블 클래스 선택 없이 type명만 적으면 됌)
   engine             = aws_rds_cluster.aurora_mysql_db.engine
   engine_version     = aws_rds_cluster.aurora_mysql_db.engine_version
+  depends_on = [
+    aws_subnet.web_private,
+    aws_subnet.was_private
+  ]
+  
+  lifecycle {
+    create_before_destroy = true
+  }
 }
