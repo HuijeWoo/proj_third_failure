@@ -1,15 +1,18 @@
 # db 관련 내용 전부 퍼옴.
 # https://isc9511.tistory.com/167
 
-resource "aws_db_subnet_group" "db_subnet_group" {
-  name = "db-subnet-group"
+resource "aws_db_subnet_group" "db_subnet_group_1" {
+  name = "sleep-db-subnet-group"
   subnet_ids = aws_subnet.was_private[*].id
+  tags = {
+    Name = "sleepy_db_subnet"
+  }
 }
 
 resource "aws_rds_cluster" "aurora_mysql_db" {
   cluster_identifier = "database-1" 
   engine_mode = "provisioned" 
-  db_subnet_group_name = aws_db_subnet_group.db_subnet_group.name 
+  db_subnet_group_name = aws_db_subnet_group.db_subnet_group_1.name 
   vpc_security_group_ids = [aws_security_group.db_sg.id]
   engine = "aurora-mysql"
   engine_version = "5.7.mysql_aurora.2.11.1"

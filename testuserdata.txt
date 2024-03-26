@@ -1,0 +1,20 @@
+#!/bin/bash
+sudo dnf update -y
+sudo hostnamectl set-hostname pub.example.com
+sudo dnf install pip -y
+sudo yum -y install amazon-efs-utils
+sudo pip install --upgrade pip
+sudo pip install flask gunicorn flask-cors requests pymysql
+sudo mkdir -p /home/ec2-user/service
+sudo su -c  "echo 'fs-045ecf525fa437691:/ /home/ec2-user/service efs _netdev,tls 0 0' >> /etc/fstab"
+sudo mount -t efs -o tls fs-045ecf525fa437691:/ /home/ec2-user/service
+sudo chmod 755 -R /home/ec2-user/service
+sudo chown ec2-user:ec2-user -R /home/ec2-user/service
+sudo aws s3 cp s3://no-way-bucket/service/blind_web /home/ec2-user/service/blind_web --recursive
+sudo aws s3 cp s3://no-way-bucket/service/web.tpl /home/ec2-user/service
+sudo chmod 755 -R /home/ec2-user/service
+sudo chown ec2-user:ec2-user -R /home/ec2-user/service
+sudo mv /home/ec2-user/service/web.tpl /home/ec2-user/service/blind_web.service
+sudo cp /home/ec2-user/service/blind_web.service /etc/systemd/system/blind_web.service
+sudo systemctl daemon-reload
+sudo systemctl enable --now blind_web.service
