@@ -107,13 +107,12 @@ resource "aws_vpc_endpoint" "s3" {
   service_name = "com.amazonaws.${var.region}.s3"
   vpc_endpoint_type = "Gateway" # default
   # route table에 자동 등록...
-  route_table_ids = [ aws_route_table.route_private.id ]
   tags = {
     Name = "vpc_endpoint_for_s3"
   }
 }
 
 resource "aws_vpc_endpoint_route_table_association" "s3_to_route_private" {
-  route_table_id  = aws_route_table.route_private.id
+  route_table_id  = aws_route_table.route_public.id
   vpc_endpoint_id = aws_vpc_endpoint.s3.id
 }
