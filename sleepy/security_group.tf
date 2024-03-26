@@ -1,3 +1,47 @@
+/******** vpc itself ********/
+resource "aws_security_group" "vpc_itself_sg" {
+    name        = "vpc-itself-sg"
+    description = "sg for vpc itself"
+    vpc_id      = aws_vpc.vpc_1.id
+    lifecycle { 
+        create_before_destroy = true
+    }
+    tags = {
+        Name = "vpc-itself-sg" 
+    }
+}
+resource "aws_security_group_rule" "ingr_ssh_vpc_itself" {
+    type              = "ingress"
+    to_port           = var.ssh_port
+    protocol          = "tcp"
+    from_port         = var.ssh_port
+    security_group_id = aws_security_group.vpc_itself_sg.id
+    cidr_blocks       = [var.ip_all]
+}
+resource "aws_security_group_rule" "ingr_http_vpc_itself" {
+    type              = "ingress"
+    to_port           = var.http_port
+    protocol          = "tcp"
+    from_port         = var.http_port
+    security_group_id = aws_security_group.vpc_itself_sg.id
+    cidr_blocks       = [var.ip_all]
+}
+resource "aws_security_group_rule" "ingr_https_vpc_itself" {
+    type              = "ingress"
+    to_port           = var.https_port
+    protocol          = "tcp"
+    from_port         = var.https_port
+    security_group_id = aws_security_group.vpc_itself_sg.id
+    cidr_blocks       = [var.ip_all]
+}
+resource "aws_security_group_rule" "vpc_itself_out_all" {
+    type              = "egress"
+    from_port         = 0
+    to_port           = 0
+    protocol          = "-1"
+    security_group_id = aws_security_group.vpc_itself_sg.id
+    cidr_blocks       = [var.ip_all]
+}
 /******** public ********/
 resource "aws_security_group" "public_sg" {
     name        = "public-sg"
@@ -18,6 +62,14 @@ resource "aws_security_group_rule" "ingr_ssh_for_public" {
     to_port           = var.ssh_port
     protocol          = "tcp"
     from_port         = var.ssh_port
+    security_group_id = aws_security_group.public_sg.id
+    cidr_blocks       = [var.ip_all]
+}
+resource "aws_security_group_rule" "ingr_https_for_public" {
+    type              = "ingress"
+    to_port           = var.https_port
+    protocol          = "tcp"
+    from_port         = var.https_port
     security_group_id = aws_security_group.public_sg.id
     cidr_blocks       = [var.ip_all]
 }
@@ -108,6 +160,15 @@ resource "aws_security_group_rule" "web-out-all" {
     protocol          = "-1"
     security_group_id = aws_security_group.web_sg.id
     cidr_blocks       = [var.ip_all]
+}
+
+resource "aws_security_group_rule" "ingr_https_for_web_with_vpc_itself" {
+    type              = "ingress"
+    to_port           = var.https_port
+    protocol          = "tcp"
+    from_port         = var.https_port
+    security_group_id = aws_security_group.web_sg.id
+    source_security_group_id = aws_security_group.vpc_itself_sg.id
 }
 /******** web efs ********/
 resource "aws_security_group" "web_efs_sg" {
@@ -227,6 +288,14 @@ resource "aws_security_group_rule" "was-out-all" {
     protocol          = "-1"
     security_group_id = aws_security_group.was_sg.id
     cidr_blocks       = [var.ip_all]
+}
+resource "aws_security_group_rule" "ingr_https_for_was_with_vpc_itself" {
+    type              = "ingress"
+    to_port           = var.https_port
+    protocol          = "tcp"
+    from_port         = var.https_port
+    security_group_id = aws_security_group.was_sg.id
+    source_security_group_id = aws_security_group.vpc_itself_sg.id
 }
 /******** was_efs ********/
 resource "aws_security_group" "was_efs_sg" {

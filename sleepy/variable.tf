@@ -42,9 +42,13 @@ variable "ssh_port" {
     type = number
     default = 22
 }
-
 variable "http_port" {
     description = "http_default_port"
     type = number
     default = 80
+}
+variable "https_port" {
+    description = "https_default_port"
+    type = number
+    default = 443
 }
