@@ -25,7 +25,7 @@ resource "aws_subnet" "web_private" {
     tags = {
         Name = "subnet_web_private-${count.index + 1}"
         Type = "private_web"
-  }
+    }
 }
 resource "aws_subnet" "was_private" {
     count = length(var.cidr_was)
@@ -35,7 +35,7 @@ resource "aws_subnet" "was_private" {
     tags = {
         Name = "subnet_was_private-${count.index + 1}"
         Type = "private_was"
-  }
+    }
 }
 resource "aws_route_table" "route_public" {
     vpc_id = aws_vpc.vpc_1.id
@@ -104,7 +104,7 @@ resource "aws_route_table_association" "was_private" {
 
 resource "aws_vpc_endpoint" "s3" {
   vpc_id       = aws_vpc.vpc_1.id
-  service_name = "com.amazonaws.${var.az_list[0]}.s3"
+  service_name = "com.amazonaws.${var.region}.s3"
   vpc_endpoint_type = "Gateway" # default
   # route table에 자동 등록...
   route_table_ids = [ aws_route_table.route_private.id ]

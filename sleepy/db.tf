@@ -5,7 +5,7 @@ resource "aws_db_subnet_group" "db_subnet_group_1" {
   name = "sleep-db-subnet-group"
   subnet_ids = aws_subnet.was_private[*].id
   tags = {
-    Name = "sleepy_db_subnet"
+    Name = "sleepy_db_subnet_1"
   }
 }
 
@@ -22,6 +22,9 @@ resource "aws_rds_cluster" "aurora_mysql_db" {
   master_password = "12341234"
   skip_final_snapshot = true # RDS 삭제 시, 스냅샷 생성 X (true값으로 설정 시, terraform destroy 정상 수행 가능)
   port = 3306
+  depends_on = [
+    aws_db_subnet_group.db_subnet_group_1
+  ]
   lifecycle {
     create_before_destroy = true
   }
@@ -39,10 +42,8 @@ resource "aws_rds_cluster_instance" "aurora_mysql_db_instance" {
   engine             = aws_rds_cluster.aurora_mysql_db.engine
   engine_version     = aws_rds_cluster.aurora_mysql_db.engine_version
   depends_on = [
-    aws_subnet.web_private,
-    aws_subnet.was_private
+    aws_db_subnet_group.db_subnet_group_1
   ]
-  
   lifecycle {
     create_before_destroy = true
   }

@@ -1,3 +1,8 @@
+variable "region"{
+    type = string
+    default = "ap-northeast-2"
+}
+
 variable "az_list" {
     type    = list(string)
     default = ["ap-northeast-2a", "ap-northeast-2c"]
