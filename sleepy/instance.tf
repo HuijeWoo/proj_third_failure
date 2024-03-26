@@ -47,9 +47,7 @@ resource "aws_instance" "web_private" {
     depends_on = [
         aws_efs_file_system.web_efs,
         aws_subnet.web_private,
-        aws_nat_gateway.ngw_1,
-        aws_rds_cluster.aurora_mysql_db,
-        aws_rds_cluster_instance.aurora_mysql_db_instance
+        aws_nat_gateway.ngw_1
     ]
     user_data = templatefile("./user_data_web.sh", {
         web_efs_id = aws_efs_file_system.web_efs.id,
@@ -85,9 +83,7 @@ resource "aws_instance" "was_private" {
     depends_on = [
         aws_efs_file_system.was_efs,
         aws_subnet.was_private,
-        aws_nat_gateway.ngw_1,
-        aws_rds_cluster.aurora_mysql_db,
-        aws_rds_cluster_instance.aurora_mysql_db_instance,
+        aws_nat_gateway.ngw_1
     ]
     user_data = templatefile("./user_data_was.sh", {
         was_efs_id = aws_efs_file_system.was_efs.id,
