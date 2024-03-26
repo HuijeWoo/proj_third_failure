@@ -107,9 +107,15 @@ resource "aws_vpc_endpoint" "s3" {
   service_name = "com.amazonaws.${var.az_list[0]}.s3"
   vpc_endpoint_type = "Gateway" # default
   # route table에 자동 등록...
-  subnet_ids = [aws_subnet.was_private[*].id, aws_subnet.web_private[*].id]
-  route_table_ids = [aws_route_table.route_private.id]
-  security_group_ids = [aws_security_group.was_sg,aws_security_group.web_sg]
+  subnet_ids = concat(
+      aws_subnet.was_private[*].id,
+      aws_subnet.web_private[*].id
+  )
+  route_table_ids = [ aws_route_table.route_private.id ]
+  security_group_ids = [
+    aws_security_group.was_sg.id,
+    aws_security_group.web_sg.id
+  ]
   tags = {
     Name = "vpc_endpoint_for_s3"
   }
