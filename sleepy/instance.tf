@@ -55,7 +55,8 @@ resource "aws_instance" "web_private" {
         host = aws_rds_cluster.aurora_mysql_db.endpoint,
         database_name = aws_rds_cluster.aurora_mysql_db.database_name,
         username = aws_rds_cluster.aurora_mysql_db.master_username,
-        password = aws_rds_cluster.aurora_mysql_db.master_password
+        password = aws_rds_cluster.aurora_mysql_db.master_password,
+        inter_lb_dns_name = aws_lb.inter_lb.dns_name
   })
     tags = {
         Name = "web-private-${count.index + 1}"

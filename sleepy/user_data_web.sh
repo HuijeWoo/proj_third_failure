@@ -14,8 +14,9 @@ runcmd:
 - password_=${password}
 - host_=${host}
 - database_name_=${database_name}
+- inter_lb_dns_name_=${inter_lb_dns_name}
 - mkdir -p $efs_mount_point_1
-- test -f "/sbin/mount.efs" && printf "\n$file_system_id_1:/ $efs_mount_point_1 efs tls,_netdev\n" >> /etc/fstab || printf "\n${file_system_id_1}.efs.ap-northeast-2.amazonaws.com:/ ${efs_mount_point_1} nfs4 nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport,_netdev 0 0\n" >> /etc/fstab
+- test -f "/sbin/mount.efs" && printf "\n$file_system_id_1:/ $efs_mount_point_1 efs tls,_netdev\n" >> /etc/fstab || printf "\n$file_system_id_1.efs.ap-northeast-2.amazonaws.com:/ $efs_mount_point_1 nfs4 nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2,noresvport,_netdev 0 0\n" >> /etc/fstab
 - test -f "/sbin/mount.efs" && grep -ozP 'client-info]\nsource' '/etc/amazon/efs/efs-utils.conf'; if [[ $? == 1 ]]; then printf "\n[client-info]\nsource=liw\n" >> /etc/amazon/efs/efs-utils.conf; fi;
 - retryCnt=15; waitTime=30; while true; do mount -a -t efs,nfs4 defaults; if [ $? = 0 ] || [ $retryCnt -lt 1 ]; then echo File system mounted successfully; break; fi; echo File system not available, retrying to mount.; ((retryCnt--)); sleep $waitTime; done;
 - chmod 755 -R $efs_mount_point_1
@@ -34,6 +35,10 @@ runcmd:
 - sed -i '9s/.*/password = $password_/g' $efs_mount_point_1/blind_web/blind_reply_DAO.py
 - sed -i '10s/.*/host = $host_/g' $efs_mount_point_1/blind_web/blind_reply_DAO.py
 - sed -i '11s/.*/db = $database_name_/g' $efs_mount_point_1/blind_web/blind_reply_DAO.py
+- sed -i '10s/.*/    'http': $inter_lb_dns.name/g' $efs_mount_point_1/blind_web/board.py
+- sed -i '18s/.*/         response = requests.get($inter_lb_dns.name, proxies=proxies)/g' $efs_mount_point_1/blind_web/board.py
+- sed -i '22s/.*/         response = requests.post($inter_lb_dns.name, data=form_data, proxies=proxies)/g' $efs_mount_point_1/blind_web/board.py
+- sed -i '29s/.*/    response = requests.get($inter_lb_dns.name+"/"+str(num), proxies=proxies)/g' $efs_mount_point_1/blind_web/board.py
 - mv $efs_mount_point_1/web.tpl $efs_mount_point_1/blind_web.service
 - cp $efs_mount_point_1/blind_web.service /etc/systemd/system/blind_web.service
 - systemctl daemon-reload
