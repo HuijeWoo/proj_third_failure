@@ -89,3 +89,6 @@ resource "aws_instance" "was_private" {
         Name = "was-private-${count.index + 1}"
     }
 }
+
+
+
