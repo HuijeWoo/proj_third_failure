@@ -7,13 +7,11 @@ pip install --upgrade pip
 pip install flask gunicorn flask-cors requests pymysql
 mkdir -p ${mount_point}
 su -c  "echo '${web_efs_id}:/ ${mount_point} efs _netdev,tls 0 0' >> /etc/fstab"
-mount -t efs -o tls ${web_efs_id}:/ ${mount_point}
+mount ${mount_point}
 chmod 755 -R ${mount_point}
 chown ec2-user:ec2-user -R ${mount_point}
 aws s3 cp s3://no-way-bucket/service/blind_web ${mount_point}/blind_web --recursive
 aws s3 cp s3://no-way-bucket/service/web.tpl ${mount_point}
-chmod 755 -R ${mount_point}
-chown ec2-user:ec2-user -R ${mount_point}
 sed -i '8s/.*/user = "${username}"/g' ${mount_point}/blind_web/blind_board_DAO.py
 sed -i '9s/.*/password = "${password}"/g' ${mount_point}/blind_web/blind_board_DAO.py
 sed -i '10s/.*/host = "${host}"/g' ${mount_point}/blind_web/blind_board_DAO.py
