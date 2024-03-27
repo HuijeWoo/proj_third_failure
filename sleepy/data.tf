@@ -18,3 +18,8 @@ data "aws_ami" "amazon_linux_2023" {
     values = ["hvm"]
   }
 }
+
+data "aws_instance" "web_private" {
+  instance_id = aws_instance.web_private[0].id
+  get_user_data = true
+}
